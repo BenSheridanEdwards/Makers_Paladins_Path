@@ -10,6 +10,13 @@ Unreality
 
 For our final project, we're looking to build a turn-based battle game. Inspired by a previous Maker's project battle. We'll be attempting to build our game using the Unreal game engine, and implement the skills of TDD and agile development we've learned whilst at Maker's Academy.
 
+We will ensure we have:
+- Daily team standups and check-ins, end-of-day retrospectives, open communication on blocks or large problems, and pairing daily to tackle problems.
+- A MVP created in Ruby that outlines the basic game mechanics and turn-based flow structure. 
+- All our code hosted on GitHub, using Jenkins for CI/CD, and that we can deploy straight to the browser or [localhost](https://docs.unrealengine.com/en-US/Platforms/HTML5/GettingStarted/index.html) server from the unreal engine.
+- High Coverage of game machanics in our unit and feature tests - Creating tests that cover a range of user experiences whilst playing our game, mapping out different scenarios for world navigation. winning and losing battles, and ensuring attack animations execute as expected.
+
+
 ## <a name="Specification">Specification</a>
 
 ### Requirements
@@ -32,6 +39,7 @@ For our final project, we're looking to build a turn-based battle game. Inspired
 ```
 As a player, so I can play a game of Unreality, 
 I'd like to start a game with full hit points.
+
 ```
 
 ## <a name="Approach">Approach</a>
@@ -44,10 +52,8 @@ Clone the repository from github then change directory into it.
 
 ```
 $ git clone https://github.com/BenSheridanEdwards/Makers_Unreality.git
-
 ```
 Open the Unreal game engine and open the project by navigating the the Makers_Unreality folder and clicking the folder inside named, Unreality.
-```
 
 ## <a name="Unit_Testng">Unit Testing</a>
 
