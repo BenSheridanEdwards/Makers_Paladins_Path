@@ -14,7 +14,7 @@ For our final project, we're looking to build a turn-based battle game. Inspired
 
 ### Requirements
 
-- All game mechanics but be testable using Unreal's (Automation System Overview)[https://docs.unrealengine.com/en-US/Programming/Automation/index.html] - Which will involve both feature and unit tests
+- All game mechanics but be testable using Unreal's [Automation System Overview](https://docs.unrealengine.com/en-US/Programming/Automation/index.html) - Which will involve both feature and unit tests
 - Players will be able to battle NPCs in a turn based style, using a variety of attacks
 - Players and enemys will have a hit point counter, once that count reaches 0, the player or enemy dies
 - When players die, the game will be reset
