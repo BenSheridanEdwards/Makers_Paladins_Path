@@ -952,3 +952,506 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.12-22.28.51:507][146]LogSavePackage: Moving '../../../../../../Users/jonat/Documents/GitHub/Makers_Unreality/turnBasedBattle/Saved/JohnsValleyCD16624F47C834227A5E3D8DDF0C9667.tmp' to '../../../../../../Users/jonat/Documents/GitHub/Makers_Unreality/turnBasedBattle/Content/ValleyBattle/Map/JohnsValley.umap'
 [2020.02.12-22.28.51:740][146]AssetCheck: New page: Asset Save: JohnsValley
 [2020.02.12-22.28.51:740][146]LogContentValidation: Display: Validating World /Game/ValleyBattle/Map/JohnsValley.JohnsValley
+[2020.02.12-22.33.32:130][612]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.12-22.33.32:152][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.12-22.33.32:153][612]PIE: New page: PIE session: JohnsValley (12 Feb 2020, 22:33:32)
+[2020.02.12-22.33.32:154][612]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.02.12-22.33.32:155][612]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.02.12-22.33.32:155][612]LogPlayLevel: Creating play world package: /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley
+[2020.02.12-22.33.32:691][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.534781s)
+[2020.02.12-22.33.32:692][612]LogAIModule: Creating AISystem for world JohnsValley
+[2020.02.12-22.33.32:692][612]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2020.02.12-22.33.32:692][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ValleyBattle/Map/JohnsValley.JohnsValley to /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley.JohnsValley (0.536366s)
+[2020.02.12-22.33.33:972][612]LogUObjectHash: Compacting FUObjectHashTables data took  16.39ms
+[2020.02.12-22.33.33:989][612]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.12-22.33.33:989][612]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.12-22.33.33:989][612]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.12-22.33.33:989][612]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.12-22.33.33:989][612]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.12-22.33.33:989][612]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.12-22.33.33:989][612]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.12-22.33.33:990][612]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.12-22.33.33:990][612]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.12-22.33.33:990][612]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.12-22.33.33:996][612]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.12-22.33.33:996][612]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.02.12-22.33.33:996][612]LogAudioMixer: Display: Is Default: Yes
+[2020.02.12-22.33.33:996][612]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.12-22.33.33:996][612]LogAudioMixer: Display: Channel Count Used: 8
+[2020.02.12-22.33.33:996][612]LogAudioMixer: Display: Device Channel Count: 8
+[2020.02.12-22.33.33:996][612]LogAudioMixer: Display: Channel Order:
+[2020.02.12-22.33.33:996][612]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.12-22.33.33:996][612]LogAudioMixer: Display: 1: FrontRight
+[2020.02.12-22.33.33:996][612]LogAudioMixer: Display: 2: FrontCenter
+[2020.02.12-22.33.33:996][612]LogAudioMixer: Display: 3: LowFrequency
+[2020.02.12-22.33.33:996][612]LogAudioMixer: Display: 4: BackLeft
+[2020.02.12-22.33.33:996][612]LogAudioMixer: Display: 5: BackRight
+[2020.02.12-22.33.33:996][612]LogAudioMixer: Display: 6: SideLeft
+[2020.02.12-22.33.33:996][612]LogAudioMixer: Display: 7: SideRight
+[2020.02.12-22.33.34:096][612]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.02.12-22.33.34:098][612]LogInit: FAudioDevice initialized.
+[2020.02.12-22.33.34:112][612]LogLoad: Game class is 'GameModeBase'
+[2020.02.12-22.33.34:120][612]LogWorld: Bringing World /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley.JohnsValley up for play (max tick rate 60) at 2020.02.12-22.33.34
+[2020.02.12-22.33.34:121][612]LogWorld: Bringing up level for play took: 0.008236
+[2020.02.12-22.33.34:122][612]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.02.12-22.33.34:126][612]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.02.12-22.33.34:127][612]PIE: Play in editor start time for /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley 1.074
+[2020.02.12-22.33.38:060][841]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/ValleyBattle/Skill.Skill_C:ExecuteUbergraph_Skill'!
+[2020.02.12-22.33.39:679][938]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/ValleyBattle/Skill.Skill_C:ExecuteUbergraph_Skill'!
+[2020.02.12-22.33.40:730][  1]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/ValleyBattle/Skill.Skill_C:ExecuteUbergraph_Skill'!
+[2020.02.12-22.33.41:768][ 63]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.33.42:571][111]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/ValleyBattle/Skill.Skill_C:ExecuteUbergraph_Skill'!
+[2020.02.12-22.33.44:869][248]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/ValleyBattle/Skill.Skill_C:ExecuteUbergraph_Skill'!
+[2020.02.12-22.33.47:083][377]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.33.47:522][397]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.33.47:972][418]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.33.48:426][439]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.33.51:926][571]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.33.56:268][770]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.34.08:701][515]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2020.02.12-22.34.08:884][526]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.34.13:918][828]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.34.50:522][ 20]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.12-22.34.50:522][ 20]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.12-22.34.50:522][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.12-22.34.50:522][ 20]LogWorld: BeginTearingDown for /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley
+[2020.02.12-22.34.50:522][ 20]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.12-22.34.50:523][ 20]LogWorld: UWorld::CleanupWorld for JohnsValley, bSessionEnded=true, bCleanupResources=true
+[2020.02.12-22.34.50:525][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.12-22.34.50:534][ 20]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.12-22.34.50:544][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.12-22.34.50:567][ 20]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.12-22.34.50:574][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.12-22.34.50:586][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   5.69ms
+[2020.02.12-22.34.50:624][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.02.12-22.35.04:301][823]LogActorFactory: Actor Factory created SM_Cave_Rocks_Stalactite_01
+[2020.02.12-22.35.05:041][863]LogActorFactory: Actor Factory created SM_Cave_Rocks_Stalactite_01
+[2020.02.12-22.35.13:900][363]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.12-22.35.19:097][663]Cmd: EDIT COPY
+[2020.02.12-22.35.20:749][663]LogSlate: Window 'Message' being destroyed
+[2020.02.12-22.35.21:360][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rocks_Stalactite_5)
+[2020.02.12-22.35.22:159][741]Cmd: EDIT COPY
+[2020.02.12-22.35.22:364][752]Cmd: EDIT PASTE
+[2020.02.12-22.35.25:004][902]Cmd: EDIT COPY
+[2020.02.12-22.35.25:215][913]Cmd: EDIT PASTE
+[2020.02.12-22.35.31:987][298]Cmd: EDIT COPY
+[2020.02.12-22.35.32:231][311]Cmd: EDIT PASTE
+[2020.02.12-22.35.38:623][663]Cmd: EDIT COPY
+[2020.02.12-22.35.38:804][673]Cmd: EDIT PASTE
+[2020.02.12-22.35.45:345][ 31]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.12-22.35.50:022][295]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.12-22.35.50:690][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rocks_Stalactite_8)
+[2020.02.12-22.35.55:738][572]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rocks_Stalactite_5)
+[2020.02.12-22.35.59:675][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rocks_Stalactite_6)
+[2020.02.12-22.36.02:822][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cliff9)
+[2020.02.12-22.36.03:311][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rocks_Stalactite_7)
+[2020.02.12-22.36.08:808][298]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.12-22.36.09:520][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rocks_Stalactite_8)
+[2020.02.12-22.36.15:674][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rocks_Stalactite_5)
+[2020.02.12-22.36.26:471][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rocks_Stalactite_9)
+[2020.02.12-22.36.29:490][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cliff9)
+[2020.02.12-22.36.37:956][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rocks_Stalactite_5)
+[2020.02.12-22.36.40:865][104]Cmd: EDIT COPY
+[2020.02.12-22.36.41:060][114]Cmd: EDIT PASTE
+[2020.02.12-22.36.54:675][875]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.12-22.39.23:859][470]LogEditor: Attempting to add actor of class 'ARSkyLight' to level at -85300.00,-11000.00,3220.00
+[2020.02.12-22.39.24:547][502]LogEditor: Attempting to add actor of class 'ARSkyLight' to level at -95800.00,-26920.00,2710.00
+[2020.02.12-22.39.27:232][660]Cmd: DELETE
+[2020.02.12-22.39.27:232][660]Cmd: ACTOR DELETE
+[2020.02.12-22.39.27:321][660]LogEditorActor: Deleted Actor: ARSkyLight
+[2020.02.12-22.39.28:041][660]LogUObjectHash: Compacting FUObjectHashTables data took  17.26ms
+[2020.02.12-22.39.28:059][660]LogEditorActor: Deleted 1 Actors (0.826 secs)
+[2020.02.12-22.40.05:130][915]LogUObjectHash: Compacting FUObjectHashTables data took  13.95ms
+[2020.02.12-22.40.05:650][915]LogSavePackage: Moving '../../../../../../Users/jonat/Documents/GitHub/Makers_Unreality/turnBasedBattle/Saved/JohnsValley_Auto13ECA4CD1406C3F80891A3B830C298874.tmp' to '../../../../../../Users/jonat/Documents/GitHub/Makers_Unreality/turnBasedBattle/Saved/Autosaves/Game/ValleyBattle/Map/JohnsValley_Auto1.umap'
+[2020.02.12-22.40.05:654][915]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ValleyBattle/Map/JohnsValley' took 0.691
+[2020.02.12-22.40.05:654][915]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.691
+[2020.02.12-22.41.12:869][677]Cmd: TRANSACTION UNDO
+[2020.02.12-22.41.12:869][677]LogEditorTransaction: Undo Create Actors
+[2020.02.12-22.41.23:605][279]EditorErrors: New page: Actor attachment
+[2020.02.12-22.41.25:189][371]Cmd: TRANSACTION UNDO
+[2020.02.12-22.41.25:189][371]LogEditorTransaction: Undo Attach actors
+[2020.02.12-22.41.25:771][386]Cmd: TRANSACTION UNDO
+[2020.02.12-22.41.25:771][386]LogEditorTransaction: Undo Clicking on Actors
+[2020.02.12-22.42.03:039][776]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.12-22.42.26:235][233]Cmd: DELETE
+[2020.02.12-22.42.26:235][233]Cmd: ACTOR DELETE
+[2020.02.12-22.42.26:312][233]LogEditorActor: Deleted Actor: AtmosphericFog
+[2020.02.12-22.42.26:969][233]LogUObjectHash: Compacting FUObjectHashTables data took  17.11ms
+[2020.02.12-22.42.26:979][233]LogEditorActor: Deleted 1 Actors (0.743 secs)
+[2020.02.12-22.42.31:656][501]Cmd: DELETE
+[2020.02.12-22.42.31:656][501]Cmd: ACTOR DELETE
+[2020.02.12-22.42.31:698][501]LogEditorActor: Deleted Actor: SkyLight
+[2020.02.12-22.42.31:778][501]LogUObjectHash: Compacting FUObjectHashTables data took  14.75ms
+[2020.02.12-22.42.31:781][501]LogEditorActor: Deleted 1 Actors (0.124 secs)
+[2020.02.12-22.42.39:046][922]Cmd: TRANSACTION UNDO
+[2020.02.12-22.42.39:046][922]LogEditorTransaction: Undo Delete Actors
+[2020.02.12-22.42.39:564][932]Cmd: TRANSACTION UNDO
+[2020.02.12-22.42.39:564][932]LogEditorTransaction: Undo Clicking on Actors
+[2020.02.12-22.42.40:601][992]Cmd: TRANSACTION UNDO
+[2020.02.12-22.42.40:601][992]LogEditorTransaction: Undo Delete Actors
+[2020.02.12-22.42.47:311][383]Cmd: DELETE
+[2020.02.12-22.42.47:311][383]Cmd: ACTOR DELETE
+[2020.02.12-22.42.47:360][383]LogEditorActor: Deleted Actor: AtmosphericFog
+[2020.02.12-22.42.47:460][383]LogUObjectHash: Compacting FUObjectHashTables data took  12.94ms
+[2020.02.12-22.42.47:465][383]LogEditorActor: Deleted 1 Actors (0.154 secs)
+[2020.02.12-22.42.48:843][465]Cmd: TRANSACTION UNDO
+[2020.02.12-22.42.48:843][465]LogEditorTransaction: Undo Delete Actors
+[2020.02.12-22.42.54:142][750]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.43.07:522][544]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.43.18:422][118]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.43.26:361][546]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.12-22.43.26:387][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.12-22.43.26:387][546]PIE: New page: PIE session: JohnsValley (12 Feb 2020, 22:43:26)
+[2020.02.12-22.43.26:387][546]LogPlayLevel: Creating play world package: /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley
+[2020.02.12-22.43.26:844][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.457026s)
+[2020.02.12-22.43.26:845][546]LogAIModule: Creating AISystem for world JohnsValley
+[2020.02.12-22.43.26:846][546]LogPlayLevel: PIE: World Init took: (0.001449s)
+[2020.02.12-22.43.26:846][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ValleyBattle/Map/JohnsValley.JohnsValley to /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley.JohnsValley (0.458663s)
+[2020.02.12-22.43.27:025][546]LogUObjectHash: Compacting FUObjectHashTables data took  14.02ms
+[2020.02.12-22.43.27:038][546]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.12-22.43.27:038][546]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.12-22.43.27:038][546]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.12-22.43.27:038][546]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.12-22.43.27:038][546]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.12-22.43.27:038][546]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.12-22.43.27:038][546]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.12-22.43.27:038][546]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.12-22.43.27:039][546]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.12-22.43.27:039][546]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.12-22.43.27:044][546]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.12-22.43.27:044][546]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.02.12-22.43.27:044][546]LogAudioMixer: Display: Is Default: Yes
+[2020.02.12-22.43.27:044][546]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.12-22.43.27:044][546]LogAudioMixer: Display: Channel Count Used: 8
+[2020.02.12-22.43.27:044][546]LogAudioMixer: Display: Device Channel Count: 8
+[2020.02.12-22.43.27:044][546]LogAudioMixer: Display: Channel Order:
+[2020.02.12-22.43.27:044][546]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.12-22.43.27:044][546]LogAudioMixer: Display: 1: FrontRight
+[2020.02.12-22.43.27:044][546]LogAudioMixer: Display: 2: FrontCenter
+[2020.02.12-22.43.27:044][546]LogAudioMixer: Display: 3: LowFrequency
+[2020.02.12-22.43.27:044][546]LogAudioMixer: Display: 4: BackLeft
+[2020.02.12-22.43.27:044][546]LogAudioMixer: Display: 5: BackRight
+[2020.02.12-22.43.27:044][546]LogAudioMixer: Display: 6: SideLeft
+[2020.02.12-22.43.27:044][546]LogAudioMixer: Display: 7: SideRight
+[2020.02.12-22.43.27:141][546]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.02.12-22.43.27:143][546]LogInit: FAudioDevice initialized.
+[2020.02.12-22.43.27:154][546]LogLoad: Game class is 'GameModeBase'
+[2020.02.12-22.43.27:162][546]LogWorld: Bringing World /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley.JohnsValley up for play (max tick rate 60) at 2020.02.12-22.43.27
+[2020.02.12-22.43.27:163][546]LogWorld: Bringing up level for play took: 0.008107
+[2020.02.12-22.43.27:163][546]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.02.12-22.43.27:166][546]PIE: Play in editor start time for /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley 0.112
+[2020.02.12-22.43.37:472][161]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.12-22.43.37:472][161]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.12-22.43.37:472][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.12-22.43.37:472][161]LogWorld: BeginTearingDown for /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley
+[2020.02.12-22.43.37:473][161]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.12-22.43.37:473][161]LogWorld: UWorld::CleanupWorld for JohnsValley, bSessionEnded=true, bCleanupResources=true
+[2020.02.12-22.43.37:477][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.12-22.43.37:487][161]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.12-22.43.37:501][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.12-22.43.37:552][161]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.12-22.43.37:557][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.12-22.43.37:576][161]LogUObjectHash: Compacting FUObjectHashTables data took   5.93ms
+[2020.02.12-22.43.37:617][162]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.02.12-22.44.11:285][604]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.12-22.44.11:308][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.12-22.44.11:309][604]PIE: New page: PIE session: JohnsValley (12 Feb 2020, 22:44:11)
+[2020.02.12-22.44.11:309][604]LogPlayLevel: Creating play world package: /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley
+[2020.02.12-22.44.11:777][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.468649s)
+[2020.02.12-22.44.11:778][604]LogAIModule: Creating AISystem for world JohnsValley
+[2020.02.12-22.44.11:779][604]LogPlayLevel: PIE: World Init took: (0.001310s)
+[2020.02.12-22.44.11:779][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ValleyBattle/Map/JohnsValley.JohnsValley to /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley.JohnsValley (0.470131s)
+[2020.02.12-22.44.11:931][604]LogUObjectHash: Compacting FUObjectHashTables data took  13.26ms
+[2020.02.12-22.44.11:935][604]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.12-22.44.11:935][604]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.12-22.44.11:935][604]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.12-22.44.11:935][604]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.12-22.44.11:935][604]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.12-22.44.11:935][604]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.12-22.44.11:935][604]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.12-22.44.11:935][604]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.12-22.44.11:936][604]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.12-22.44.11:936][604]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.12-22.44.11:943][604]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.12-22.44.11:943][604]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.02.12-22.44.11:943][604]LogAudioMixer: Display: Is Default: Yes
+[2020.02.12-22.44.11:943][604]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.12-22.44.11:943][604]LogAudioMixer: Display: Channel Count Used: 8
+[2020.02.12-22.44.11:943][604]LogAudioMixer: Display: Device Channel Count: 8
+[2020.02.12-22.44.11:943][604]LogAudioMixer: Display: Channel Order:
+[2020.02.12-22.44.11:943][604]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.12-22.44.11:943][604]LogAudioMixer: Display: 1: FrontRight
+[2020.02.12-22.44.11:943][604]LogAudioMixer: Display: 2: FrontCenter
+[2020.02.12-22.44.11:943][604]LogAudioMixer: Display: 3: LowFrequency
+[2020.02.12-22.44.11:943][604]LogAudioMixer: Display: 4: BackLeft
+[2020.02.12-22.44.11:943][604]LogAudioMixer: Display: 5: BackRight
+[2020.02.12-22.44.11:943][604]LogAudioMixer: Display: 6: SideLeft
+[2020.02.12-22.44.11:943][604]LogAudioMixer: Display: 7: SideRight
+[2020.02.12-22.44.12:037][604]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.02.12-22.44.12:040][604]LogInit: FAudioDevice initialized.
+[2020.02.12-22.44.12:049][604]LogLoad: Game class is 'GameModeBase'
+[2020.02.12-22.44.12:057][604]LogWorld: Bringing World /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley.JohnsValley up for play (max tick rate 60) at 2020.02.12-22.44.12
+[2020.02.12-22.44.12:058][604]LogWorld: Bringing up level for play took: 0.007974
+[2020.02.12-22.44.12:058][604]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.02.12-22.44.12:061][604]PIE: Play in editor start time for /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley 1.007
+[2020.02.12-22.44.27:651][526]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.44.28:732][582]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.44.29:150][604]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.44.43:497][458]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.44.49:335][804]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2020.02.12-22.44.49:519][815]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.44.50:101][850]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.44.50:452][871]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.44.53:951][ 81]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.45.08:894][977]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.12-22.45.08:894][977]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.12-22.45.08:894][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.12-22.45.08:894][977]LogWorld: BeginTearingDown for /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley
+[2020.02.12-22.45.08:894][977]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.12-22.45.08:895][977]LogWorld: UWorld::CleanupWorld for JohnsValley, bSessionEnded=true, bCleanupResources=true
+[2020.02.12-22.45.08:898][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.12-22.45.08:910][977]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.12-22.45.08:925][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.12-22.45.08:982][977]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.12-22.45.08:989][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.12-22.45.09:010][977]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2020.02.12-22.45.09:051][978]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.02.12-22.45.47:492][195]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.12-22.46.30:826][991]Cmd: TRANSACTION UNDO
+[2020.02.12-22.46.30:826][991]LogEditorTransaction: Undo Edit Light Color
+[2020.02.12-22.46.32:621][ 72]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.12-22.46.39:566][457]Cmd: TRANSACTION REDO
+[2020.02.12-22.46.39:566][457]LogEditorTransaction: Redo Edit Light Color
+[2020.02.12-22.49.09:222][892]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.49.21:856][599]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.51.13:569][787]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Engine/Transient.World_5:PersistentLevel.BP_Sky_Sphere_C_0
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:530][970]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:531][970]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:531][970]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:536][970]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:560][970]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:570][971]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:572][971]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:603][971]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:611][972]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:634][972]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:643][973]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:645][973]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:647][973]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:671][973]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:679][974]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:705][974]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.17:714][975]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.18:964][ 12]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.18:974][ 12]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.18:974][ 12]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.23:472][224]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.23:491][225]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.23:508][226]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.23:526][227]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.23:544][228]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.23:578][229]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.23:597][230]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.23:615][231]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.23:638][232]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.23:662][233]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.23:679][234]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.23:702][235]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.23:721][236]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.23:739][237]LogScript: Warning: Accessed None trying to read property Zenith color curve
+	BP_Sky_Sphere_C /Game/ValleyBattle/Map/JohnsValley.JohnsValley:PersistentLevel.BP_Sky_Sphere_2
+	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:02CD
+[2020.02.12-22.51.26:136][346]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.12-22.52.08:231][584]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.02.12-22.52.09:390][640]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.02.12-22.52.37:037][118]LogUObjectHash: Compacting FUObjectHashTables data took  42.45ms
+[2020.02.12-22.52.37:694][118]LogSavePackage: Moving '../../../../../../Users/jonat/Documents/GitHub/Makers_Unreality/turnBasedBattle/Saved/JohnsValley_Auto2A3B9F7494B7157E9DA7359842B2B8FC6.tmp' to '../../../../../../Users/jonat/Documents/GitHub/Makers_Unreality/turnBasedBattle/Saved/Autosaves/Game/ValleyBattle/Map/JohnsValley_Auto2.umap'
+[2020.02.12-22.52.37:699][118]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ValleyBattle/Map/JohnsValley' took 2.476
+[2020.02.12-22.52.37:699][118]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.476
+[2020.02.12-22.53.44:545][968]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.54.15:142][761]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.54.38:304][796]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.54.57:268][847]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 2
+[2020.02.12-22.54.57:436][857]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 0
+[2020.02.12-22.55.21:358][210]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.12-22.55.21:380][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.12-22.55.21:380][210]PIE: New page: PIE session: JohnsValley (12 Feb 2020, 22:55:21)
+[2020.02.12-22.55.21:380][210]LogPlayLevel: Creating play world package: /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley
+[2020.02.12-22.55.21:874][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.493860s)
+[2020.02.12-22.55.21:875][210]LogAIModule: Creating AISystem for world JohnsValley
+[2020.02.12-22.55.21:875][210]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2020.02.12-22.55.21:875][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ValleyBattle/Map/JohnsValley.JohnsValley to /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley.JohnsValley (0.495132s)
+[2020.02.12-22.55.22:442][210]LogUObjectHash: Compacting FUObjectHashTables data took  20.35ms
+[2020.02.12-22.55.22:453][210]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.12-22.55.22:453][210]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.12-22.55.22:453][210]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.12-22.55.22:453][210]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.12-22.55.22:453][210]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.12-22.55.22:453][210]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.12-22.55.22:453][210]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.12-22.55.22:453][210]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.12-22.55.22:454][210]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.12-22.55.22:454][210]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.12-22.55.22:460][210]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.12-22.55.22:460][210]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.02.12-22.55.22:460][210]LogAudioMixer: Display: Is Default: Yes
+[2020.02.12-22.55.22:460][210]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.12-22.55.22:460][210]LogAudioMixer: Display: Channel Count Used: 8
+[2020.02.12-22.55.22:460][210]LogAudioMixer: Display: Device Channel Count: 8
+[2020.02.12-22.55.22:460][210]LogAudioMixer: Display: Channel Order:
+[2020.02.12-22.55.22:460][210]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.12-22.55.22:460][210]LogAudioMixer: Display: 1: FrontRight
+[2020.02.12-22.55.22:460][210]LogAudioMixer: Display: 2: FrontCenter
+[2020.02.12-22.55.22:460][210]LogAudioMixer: Display: 3: LowFrequency
+[2020.02.12-22.55.22:460][210]LogAudioMixer: Display: 4: BackLeft
+[2020.02.12-22.55.22:460][210]LogAudioMixer: Display: 5: BackRight
+[2020.02.12-22.55.22:460][210]LogAudioMixer: Display: 6: SideLeft
+[2020.02.12-22.55.22:460][210]LogAudioMixer: Display: 7: SideRight
+[2020.02.12-22.55.22:564][210]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.02.12-22.55.22:566][210]LogInit: FAudioDevice initialized.
+[2020.02.12-22.55.22:574][210]LogLoad: Game class is 'GameModeBase'
+[2020.02.12-22.55.22:581][210]LogWorld: Bringing World /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley.JohnsValley up for play (max tick rate 60) at 2020.02.12-22.55.22
+[2020.02.12-22.55.22:582][210]LogWorld: Bringing up level for play took: 0.007507
+[2020.02.12-22.55.22:582][210]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.02.12-22.55.22:585][210]PIE: Play in editor start time for /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley 1.532
+[2020.02.12-22.55.45:189][563]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.55.45:557][584]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.55.47:562][703]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.56.34:798][445]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.12-22.56.34:798][445]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.02.12-22.56.34:818][445]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.02.12-22.56.34:819][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.12-22.56.34:819][445]LogWorld: BeginTearingDown for /Game/ValleyBattle/Map/UEDPIE_0_JohnsValley
+[2020.02.12-22.56.34:819][445]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.12-22.56.34:819][445]LogWorld: UWorld::CleanupWorld for JohnsValley, bSessionEnded=true, bCleanupResources=true
+[2020.02.12-22.56.34:823][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.12-22.56.34:832][445]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.12-22.56.34:855][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.12-22.56.34:981][445]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.12-22.56.34:988][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.12-22.56.35:036][445]LogUObjectHash: Compacting FUObjectHashTables data took   8.95ms
+[2020.02.12-22.56.35:084][446]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.02.12-22.56.50:601][319]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.56.53:886][512]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2020.02.12-22.56.54:115][521]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.56.54:518][543]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.56.54:887][564]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.56.57:702][724]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.02.12-22.57.18:930][929]LogEditor: Attempting to add actor of class 'DatasmithAreaLightActor' to level at -91990.00,-41260.00,2980.00
+[2020.02.12-22.57.20:910][ 12]LogEditor: Attempting to add actor of class 'DatasmithAreaLightActor' to level at -90940.00,-27690.00,2580.00
+[2020.02.12-22.57.32:396][653]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Rocks_Stalactite_01)
+[2020.02.12-22.57.33:806][731]Cmd: TRANSACTION UNDO
+[2020.02.12-22.57.33:806][731]LogEditorTransaction: Undo Clicking on Actors
+[2020.02.12-22.57.37:648][940]Cmd: TRANSACTION UNDO
+[2020.02.12-22.57.37:649][940]LogEditorTransaction: Undo Create Actors
+[2020.02.12-22.58.23:731][583]Cmd: TRANSACTION UNDO
+[2020.02.12-22.58.23:731][583]LogEditorTransaction: Undo Edit Ignore Radial Force
+[2020.02.12-22.58.24:180][595]Cmd: TRANSACTION UNDO
+[2020.02.12-22.58.24:180][595]LogEditorTransaction: Undo Edit Ignore Radial Impulse
+[2020.02.12-22.58.24:696][621]Cmd: TRANSACTION UNDO
+[2020.02.12-22.58.24:696][621]LogEditorTransaction: Undo Edit Ignore Radial Force
+[2020.02.12-22.58.25:186][649]Cmd: TRANSACTION UNDO
+[2020.02.12-22.58.25:186][649]LogEditorTransaction: Undo Edit Ignore Radial Impulse
+[2020.02.12-22.58.25:904][690]Cmd: TRANSACTION UNDO
+[2020.02.12-22.58.25:904][690]LogEditorTransaction: Undo Edit Cast Shadow
+[2020.02.12-22.58.27:104][760]Cmd: TRANSACTION UNDO
+[2020.02.12-22.58.27:104][760]LogEditorTransaction: Undo Edit Cast Shadow
+[2020.02.12-22.58.27:865][805]Cmd: TRANSACTION UNDO
+[2020.02.12-22.58.27:865][805]LogEditorTransaction: Undo Scale Actors
+[2020.02.12-22.58.28:296][816]Cmd: TRANSACTION UNDO
+[2020.02.12-22.58.28:296][816]LogEditorTransaction: Undo Create Actors
+[2020.02.12-22.58.29:150][865]Cmd: TRANSACTION UNDO
+[2020.02.12-22.58.29:150][865]LogEditorTransaction: Undo Clicking on Actors
+[2020.02.12-22.58.29:814][904]Cmd: TRANSACTION UNDO
+[2020.02.12-22.58.29:814][904]LogEditorTransaction: Undo Reset to Default
+[2020.02.12-22.58.30:309][932]Cmd: TRANSACTION UNDO
+[2020.02.12-22.58.30:309][932]LogEditorTransaction: Undo Edit Intensity
+[2020.02.12-22.58.35:458][215]LogSlate: Window 'Undo History' being destroyed
+[2020.02.12-22.58.35:464][215]LogSlate: Window 'Undo History' being destroyed
+[2020.02.12-22.58.37:149][312]Cmd: TRANSACTION REDO
+[2020.02.12-22.58.37:149][312]LogEditorTransaction: Redo Edit Intensity
+[2020.02.12-22.58.38:452][367]Cmd: TRANSACTION REDO
+[2020.02.12-22.58.38:453][367]LogEditorTransaction: Redo Reset to Default
+[2020.02.12-22.58.40:830][502]Cmd: TRANSACTION REDO
+[2020.02.12-22.58.40:830][502]LogEditorTransaction: Redo Clicking on Actors
+[2020.02.12-22.58.42:719][608]Cmd: TRANSACTION REDO
+[2020.02.12-22.58.42:719][608]LogEditorTransaction: Redo Create Actors
+[2020.02.12-22.58.43:999][681]Cmd: TRANSACTION UNDO
+[2020.02.12-22.58.43:999][681]LogEditorTransaction: Undo Create Actors
+[2020.02.12-23.03.53:299][159]LogUObjectHash: Compacting FUObjectHashTables data took  33.98ms
+[2020.02.12-23.03.53:898][159]LogSavePackage: Moving '../../../../../../Users/jonat/Documents/GitHub/Makers_Unreality/turnBasedBattle/Saved/JohnsValley_Auto3920D95F54E65BC093CEB9DB509002ED7.tmp' to '../../../../../../Users/jonat/Documents/GitHub/Makers_Unreality/turnBasedBattle/Saved/Autosaves/Game/ValleyBattle/Map/JohnsValley_Auto3.umap'
+[2020.02.12-23.03.53:902][159]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ValleyBattle/Map/JohnsValley' took 2.277
+[2020.02.12-23.03.53:902][159]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.277
+[2020.02.12-23.08.00:752][811]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2020.02.12-23.08.15:991][402]LogUObjectHash: Compacting FUObjectHashTables data took  18.35ms
+[2020.02.12-23.08.16:474][402]LogSavePackage: Moving '../../../../../../Users/jonat/Documents/GitHub/Makers_Unreality/turnBasedBattle/Saved/JohnsValley84120A9642B6ADC358702E9DC554CABB.tmp' to '../../../../../../Users/jonat/Documents/GitHub/Makers_Unreality/turnBasedBattle/Content/ValleyBattle/Map/JohnsValley.umap'
+[2020.02.12-23.08.16:718][402]AssetCheck: New page: Asset Save: JohnsValley
+[2020.02.12-23.08.16:718][402]LogContentValidation: Display: Validating World /Game/ValleyBattle/Map/JohnsValley.JohnsValley
