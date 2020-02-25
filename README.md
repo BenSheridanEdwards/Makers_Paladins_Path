@@ -64,7 +64,7 @@ In this part of our README, we'll link to videos showcasing our tests.
 #### The World
 [Story](#Story) | [BirdsEye Cinematic Trailer](#Birdseye) | [Map](#Map) 
 
-#### The Hero (You)
+#### The Hero
 
 [Player Character](#Character) | [Physical Attacks](#PhysicalAttacks) | [Magical Attacks](#MagicalAttacks) | [Health Bar](#HealthBar)
 
@@ -72,7 +72,7 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 [Golems](#Golems) | [Fire Golem](#FireGolem) | [Ice Golem](#IceGolem) | [Rock Golem](#RockGolem) | [Final Boss](#BossGolem)
 
-####  Behind the Game (The Code)
+####  Behind the Game (Blueprints / Game Code)
 
 [Game Mechanics](#Mechanics) | [Level Design](#Level) | [Animations](@Animations) | [Character Skills](#Skills) | [Enemy AI](#EnemyAI)
 
