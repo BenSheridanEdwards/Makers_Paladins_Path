@@ -3,7 +3,7 @@
 Unreality
 -
 
-[Test Outline](#Outline) | [Specification](#Specification) | [User Stories](#Story) | [Approach & Code Structure](#Approach) | [Installation Instructions](#Installation) | [Unit Testing](#Unit_Testing) | [Classes & Methods](#Methods) |
+[Test Outline](#Outline) | [Specification](#Specification) | [User Stories](#Story) | [Approach & Code Structure](#Approach) | [Installation Instructions](#Installation) | [Unit Testing](#Unit_Testing) | [Paladin's Path](#Game) |
 
 
 ## <a name="Outline">Test Outline</a>
@@ -59,5 +59,5 @@ Open the Unreal game engine and open the project by navigating the the Makers_Un
 
 In this part of our README, we'll link to videos showcasing our tests.
 
-## <a name="Methods">Classes & Methods</a>
+## <a name="Game">Paladin's Path</a>
 
