@@ -77,15 +77,21 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 <br>
 
-### <a name="Map">Valley Map</a>
+### <a name="Story">Story</a>
   
 ##### In Paladin's path you'll move through an open-world with different environments for you to explore: 
 
 ![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Images/PaladinsPath-Collage.jpeg)
 
-### <a name="Enemies">Golems</a>
-
-##### Along your path, you'll encounter enemies called Golems. You'll fight multiple types of Golems during your quest:
+##### Along your path, you'll encounter enemies, called Golems. You'll fight multiple types of Golems during your quest:
 
 ![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Images/Golem%20Types.jpeg)
 *Golems are magical being made of inert matter like rock, fire, and ice. That have been animated to life by mysterious forces.*
+
+##### Your goal is to reach the Golem's stronghold, where the Golem leader awaits:
+
+
+
+##### As a Paladin, you have a sword and shield, and multiple spells to aid you on your journey to the Golem stronghold: 
+
+
