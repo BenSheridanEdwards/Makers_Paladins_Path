@@ -3,7 +3,7 @@
 Unreality
 -
 
-[Test Outline](#Outline) | [Specification](#Specification) | [User Stories](#Story) | [Approach & Code Structure](#Approach) | [Installation Instructions](#Installation) | [Unit Testing](#Unit_Testing) | [Paladin's Path](#Game) |
+[Test Outline](#Outline) | [Specification](#Specification) | [User Stories](#Story) | [Approach & Code Structure](#Approach) | [Installation Instructions](#Installation) | [Unit Testing](#Unit_Testing) | [See The Game](#Game) |
 
 
 ## <a name="Outline">Test Outline</a>
@@ -61,10 +61,38 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 ## <a name="Game">Paladin's Path</a>
 
-[Map](#Map)
-[Enemies](#Enemies)
+#### The World
+[BirdsEye Overview](#Birdseye) 
 
-### <a name="Map>Valley Map</a>
+[Map](#Map) 
+
+
+#### The Enemies
+
+[Golems](#Golems) 
+
+[Fire Golem](#FireGolem)
+
+[Ice Golem](#IceGolem)
+
+[Rock Golem](#RockGolem)
+
+[Final Boss][#BossGolem]
+
+
+#### The Hero (You)
+
+[The Hero: Paragon](#Character)
+
+[Hero's Sword](#PhysicalAttacks)
+
+[Hero's Magic](#MagicalAttacks)
+
+[Hero's Health](#HealthBar
+
+)
+
+### <a name="Map">Valley Map</a>
   
 ##### In Paladin's path you'll move through an open-world with different environments for you to explore: 
 
