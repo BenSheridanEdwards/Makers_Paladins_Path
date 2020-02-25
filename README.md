@@ -88,7 +88,7 @@ In this part of our README, we'll link to videos showcasing our tests.
 ![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Images/Golem%20Types.jpeg)
 *Golems are magical being made of inert matter like rock, fire, and ice. That have been animated to life by mysterious forces.*
 
-##### Your goal is to reach the Golem's stronghold, where the Golem leader awaits:
+##### Your goal is to reach the Golem's stronghold castle in the distance, where the Golem leader awaits:
 
 ![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-Start-CastleView-Top.png)
 
