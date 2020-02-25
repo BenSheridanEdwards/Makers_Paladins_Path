@@ -66,7 +66,7 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 #### The Hero (You)
 
-[The Hero: Paragon](#Character) | [Hero's Sword](#PhysicalAttacks) | [Hero's Magic](#MagicalAttacks) | [Hero's Health](#HealthBar)
+[The Hero: Paragon](#Character) | [Physical Attacks](#PhysicalAttacks) | [Magical Attacks](#MagicalAttacks) | [Health Bar](#HealthBar)
 
 #### The Enemies
 
