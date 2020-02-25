@@ -66,4 +66,4 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 ##### Golems are magical constructs made of inert matter animated by high-level spellcasters through the use of powerful spells during magical rituals. You'll fight Golems made of fire, ice, and rock:
 
-![]()
+![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Images/Golem%20Types.jpeg)
