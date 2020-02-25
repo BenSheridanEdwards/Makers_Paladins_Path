@@ -61,8 +61,11 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 ## <a name="Game">Paladin's Path</a>
 
+[Enemies](#Enemies)
 
-### Your Enemy: Golems
+### 
+
+### <a name="Enemies">Golems</a>
 
 ##### Along your path, you'll encounter enemies called Golems. You'll fight multiple types of Golems during your quest:
 
