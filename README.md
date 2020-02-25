@@ -59,7 +59,7 @@ Open the Unreal game engine and open the project by navigating the the Makers_Un
 
 In this part of our README, we'll link to videos showcasing our tests.
 
-## <a name="Game">Paladin's Path</a>
+## <a name="Game">Paladin's Path (See The Game)</a>
 
 #### The World
 [Story](#Story) | [BirdsEye Cinematic Trailer](#Birdseye) | [Map](#Map) 
