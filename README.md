@@ -94,4 +94,6 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 ##### As a Paladin, you have a sword and shield, and multiple spells to aid you on your journey to the Golem stronghold: 
 
-<p align="center">![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif)</p>
+<p align="center">
+  ![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif)
+</p>
