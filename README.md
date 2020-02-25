@@ -61,3 +61,9 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 ## <a name="Game">Paladin's Path</a>
 
+
+### Your Enemy: Golems
+
+##### Golems are magical constructs made of inert matter animated by high-level spellcasters through the use of powerful spells during magical rituals. You'll fight Golems made of fire, ice, and rock:
+
+![]()
