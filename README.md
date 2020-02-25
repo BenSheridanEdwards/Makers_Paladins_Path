@@ -64,6 +64,7 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 ### Your Enemy: Golems
 
-##### Golems are magical constructs made of inert matter animated by high-level spellcasters through the use of powerful spells during magical rituals. You'll fight Golems made of fire, ice, and rock:
+##### The enemies of our game are called Golems. You'll fight multiple types of Golems, including those made of Rock, Fire, and Ice.
 
 ![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Images/Golem%20Types.jpeg)
+*Golems are magical being made of inert matter animated by mysterious forces.*
