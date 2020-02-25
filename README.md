@@ -3,7 +3,7 @@
 Unreality
 -
 
-[Test Outline](#Outline) | [Specification](#Specification) | [User Stories](#Story) | [Approach & Code Structure](#Approach) | [Installation Instructions](#Installation) | [Unit Testing](#Unit_Testing) | [See The Game](#Game) |
+[Test Outline](#Outline) | [Specification](#Specification) | [User Stories](#Story) | [Approach & Game Progression](#Approach) | [Installation Instructions](#Installation) | [Testing](#Testing) | [See The Game](#Game) |
 
 
 ## <a name="Outline">Test Outline</a>
@@ -55,14 +55,14 @@ $ git clone https://github.com/BenSheridanEdwards/Makers_Unreality.git
 ```
 Open the Unreal game engine and open the project by navigating the the Makers_Unreality folder and clicking the folder inside named, Unreality.
 
-## <a name="Unit_Testng">Unit Testing</a>
+## <a name="Testng">Testing</a>
 
 In this part of our README, we'll link to videos showcasing our tests.
 
 ## <a name="Game">Paladin's Path</a>
 
 #### The World
-[BirdsEye Overview](#Birdseye) | [Map](#Map) 
+[Story](#Story) | [BirdsEye Cinematic Trailer](#Birdseye) | [Map](#Map) 
 
 #### The Hero (You)
 
