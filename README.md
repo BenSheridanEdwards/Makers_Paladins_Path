@@ -66,11 +66,11 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 #### The Hero (You)
 
-[The Hero: Paragon](#Character) | [Physical Attacks](#PhysicalAttacks) | [Magical Attacks](#MagicalAttacks) | [Health Bar](#HealthBar)
+[Player Character](#Character) | [Physical Attacks](#PhysicalAttacks) | [Magical Attacks](#MagicalAttacks) | [Health Bar](#HealthBar)
 
 #### The Enemies
 
-[Golems](#Golems) | [Fire Golem](#FireGolem) | [Ice Golem](#IceGolem) | [Rock Golem](#RockGolem) | [Final Boss][#BossGolem]
+[Golems](#Golems) | [Fire Golem](#FireGolem) | [Ice Golem](#IceGolem) | [Rock Golem](#RockGolem) | [Final Boss](#BossGolem)
 
 ####  Behind the Game (The Code)
 
