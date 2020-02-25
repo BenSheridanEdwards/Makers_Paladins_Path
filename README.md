@@ -50,7 +50,7 @@ I'd like to start a game with full hit points.
 Clone the repository from github then change directory into it.
 
 ```
-$ git clone https://github.com/BenSheridanEdwards/Makers_Unreality.git
+$ git clone https://github.com/BenSheridanEdwards/Makers_Paladins_Path.git
 ```
 Open the Unreal game engine and open the project by navigating the the Makers_Unreality folder and clicking the folder inside named, Unreality.
 
