@@ -1,12 +1,11 @@
 
 ### [Makers Academy](http://www.makersacademy.com) - Week 11 & 12 Final Project
-Unreality
+Paladin's Path (An Unreal Engine Game)
 -
 
-[Test Outline](#Outline) | [Specification](#Specification) | [User Stories](#Story) | [Approach & Code Structure](#Approach) | [Installation Instructions](#Installation) | [Unit Testing](#Unit_Testing) | [Paladin's Path](#Game) |
+[Project Outline](#Outline) | [Specification](#Specification) | [User Stories](#Story) | [Approach & Game Progression](#Approach) | [Installation Instructions](#Installation) | [Testing](#Testing) | [See The Game](#Game)
 
-
-## <a name="Outline">Test Outline</a>
+## <a name="Outline">Project Outline</a>
 
 For our final project, we're looking to build a turn-based battle game. Inspired by a previous Maker's project battle. We'll be attempting to build our game using the Unreal game engine, and implement the skills of TDD and agile development we've learned whilst at Maker's Academy.
 
@@ -55,9 +54,38 @@ $ git clone https://github.com/BenSheridanEdwards/Makers_Unreality.git
 ```
 Open the Unreal game engine and open the project by navigating the the Makers_Unreality folder and clicking the folder inside named, Unreality.
 
-## <a name="Unit_Testng">Unit Testing</a>
+## <a name="Testng">Testing</a>
 
 In this part of our README, we'll link to videos showcasing our tests.
 
-## <a name="Game">Paladin's Path</a>
+## <a name="Game">Paladin's Path (See The Game)</a>
 
+#### The World
+[Story](#Story) | [BirdsEye Cinematic Trailer](#Birdseye) | [Map](#Map) 
+
+#### The Hero
+
+[Player Character](#Character) | [Physical Attacks](#PhysicalAttacks) | [Magical Attacks](#MagicalAttacks) | [Health Bar](#HealthBar)
+
+#### The Enemies
+
+[Golems](#Golems) | [Fire Golem](#FireGolem) | [Ice Golem](#IceGolem) | [Rock Golem](#RockGolem) | [Final Boss](#BossGolem)
+
+####  Behind the Game (Blueprints / Game Code)
+
+[Game Mechanics](#Mechanics) | [Level Design](#Level) | [Animations](@Animations) | [Character Skills](#Skills) | [Enemy AI](#EnemyAI)
+
+<br>
+
+### <a name="Map">Valley Map</a>
+  
+##### In Paladin's path you'll move through an open-world with different environments for you to explore: 
+
+![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Images/PaladinsPath-Collage.jpeg)
+
+### <a name="Enemies">Golems</a>
+
+##### Along your path, you'll encounter enemies called Golems. You'll fight multiple types of Golems during your quest:
+
+![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Images/Golem%20Types.jpeg)
+*Golems are magical being made of inert matter like rock, fire, and ice. That have been animated to life by mysterious forces.*
