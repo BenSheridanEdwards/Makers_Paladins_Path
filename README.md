@@ -61,9 +61,14 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 ## <a name="Game">Paladin's Path</a>
 
+[Map](#Map)
 [Enemies](#Enemies)
 
-### 
+### <a name="Map>Valley Map</a>
+  
+##### In Paladin's path you'll move through an open-world with different environments for you to explore: 
+
+![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Images/PaladinsPath-Collage.jpeg)
 
 ### <a name="Enemies">Golems</a>
 
