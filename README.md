@@ -62,35 +62,21 @@ In this part of our README, we'll link to videos showcasing our tests.
 ## <a name="Game">Paladin's Path</a>
 
 #### The World
-[BirdsEye Overview](#Birdseye) 
-
-[Map](#Map) 
-
-
-#### The Enemies
-
-[Golems](#Golems) 
-
-[Fire Golem](#FireGolem)
-
-[Ice Golem](#IceGolem)
-
-[Rock Golem](#RockGolem)
-
-[Final Boss][#BossGolem]
-
+[BirdsEye Overview](#Birdseye) | [Map](#Map) 
 
 #### The Hero (You)
 
-[The Hero: Paragon](#Character)
+[The Hero: Paragon](#Character) | [Hero's Sword](#PhysicalAttacks) | [Hero's Magic](#MagicalAttacks) | [Hero's Health](#HealthBar)
 
-[Hero's Sword](#PhysicalAttacks)
+#### The Enemies
 
-[Hero's Magic](#MagicalAttacks)
+[Golems](#Golems) | [Fire Golem](#FireGolem) | [Ice Golem](#IceGolem) | [Rock Golem](#RockGolem) | [Final Boss][#BossGolem]
 
-[Hero's Health](#HealthBar
+####  Behind the Game (The Code)
 
-)
+[Game Mechanics](#Mechanics) | [Level Design](#Level) | [Animations](@Animations) | [Character Skills](#Skills) | [Enemy AI](#EnemyAI)
+
+<br>
 
 ### <a name="Map">Valley Map</a>
   
