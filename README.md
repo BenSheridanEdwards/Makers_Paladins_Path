@@ -90,7 +90,7 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 ##### Your goal is to reach the Golem's stronghold, where the Golem leader awaits:
 
-
+![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-Start-CastleView-Top.png)
 
 ##### As a Paladin, you have a sword and shield, and multiple spells to aid you on your journey to the Golem stronghold: 
 
