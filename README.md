@@ -75,7 +75,7 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 [Game Mechanics](#Mechanics) | [Level Design](#Level) | [Animations](@Animations) | [Character Skills](#Skills) | [Enemy AI](#EnemyAI)
 
-<br>
+---
 
 ### <a name="Story">Story</a>
   
