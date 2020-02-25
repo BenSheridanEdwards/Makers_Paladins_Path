@@ -98,5 +98,5 @@ In this part of our README, we'll link to videos showcasing our tests.
 *Your sword strike combo*
 
 <a href="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-RockSpell.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-RockSpell.gif"/></div></a>
-<p align="center"><i>Your rock spell</i></p>
+<p align="center"><i>Your <b>Rock</b> Spell</i></p>
 
