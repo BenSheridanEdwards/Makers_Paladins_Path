@@ -94,10 +94,10 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 ##### As a Paladin, you have a sword and shield, and multiple spells to aid you on your journey to the Golem stronghold: 
 
-<p align="center"><b>Sword Strike Combo</b></p>
+<p align="center"><b><i>Sword Strike Combo</i></b></p>
 <a href="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif"/></div></a>
 <br>
-<b align="center">Rock Spell</b>
+<p align="center"><b><i>Rock Spell</i></b></p>
 <a href="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-RockSpell.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-RockSpell.gif"/></div></a>
 
 
