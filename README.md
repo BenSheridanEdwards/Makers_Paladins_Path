@@ -95,7 +95,7 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 ### <a name="Birdseye">Birdseye Cinematic Trailer</a>
 
-Click the preview below to see our full 1-minute cinematic trailer on [YouTube](https://youtu.be/R4Vh61J5KaI):
+Click the preview below to see our full one-minute cinematic trailer on [YouTube](https://youtu.be/R4Vh61J5KaI):
 
 <a href="https://youtu.be/R4Vh61J5KaI"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-CinematicView-1.gif"/></div></a>
 
