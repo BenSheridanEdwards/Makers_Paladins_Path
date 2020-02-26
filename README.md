@@ -50,7 +50,7 @@ I'd like to start a game with full hit points.
 Clone the repository from github then change directory into it.
 
 ```
-$ git clone https://github.com/BenSheridanEdwards/Makers_Unreality.git
+$ git clone https://github.com/BenSheridanEdwards/Makers_Paladins_Path.git
 ```
 Open the Unreal game engine and open the project by navigating the the Makers_Unreality folder and clicking the folder inside named, Unreality.
 
@@ -83,18 +83,37 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 ![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-Collage.jpeg)
 
+##### Your goal is to reach the stronghold castle in the distance, where a powerful enemy awaits you:
+
+![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-Start-CastleView-Top.png)
+
 ##### Along your path, you'll encounter enemies, called Golems. You'll fight multiple types of Golems during your quest:
 
 ![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/Golem%20Types.jpeg)
 *Golems are magical being made of inert matter like rock, fire, and ice. That have been animated to life by mysterious forces.*
 
-##### Your goal is to reach the Golem's stronghold castle in the distance, where the Golem leader awaits:
 
-![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-Start-CastleView-Top.png)
 
-##### As a Paladin, you have a sword and shield, and multiple spells to aid you on your journey to the Golem stronghold: 
 
-<a href="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif"><div align="left"><img src="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif"/></div></a>
+
+### <a name="PhysicalAttacks">Physical Attacks</a>
+
+##### As a Paladin, you have a sword and shield, and can deal devestating combo attacks: 
+
+<p align="center"><b><i>Sword Strike Combo</i></b></p>
+<a href="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif"/></div></a>
+<br>
+
+### <a name="MagicalAttacks">Magical Attacks<a/>
+  
+##### As a Paladin, you're also blessed with magic, and command fire, ice, and earth spells:
+
+<p align="center"><b><i>Fire Magic</i></b></p>
+
+<p align="center"><b><i>Ice Magic</i></b></p>
+
+<p align="center"><b><i>Earth Magic</i></b></p>
+<a href="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-RockSpell.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-RockSpell.gif"/></div></a>
 
 
 
