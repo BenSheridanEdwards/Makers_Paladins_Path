@@ -5,6 +5,8 @@ Paladin's Path (An Unreal Engine Game)
 
 [Project Outline](#Outline) | [Specification](#Specification) | [User Stories](#Story) | [Approach & Game Progression](#Approach) | [Installation Instructions](#Installation) | [Testing](#Testing) | [See The Game](#Game)
 
+<div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-CinematicView-1.gif"/></div>
+
 ## <a name="Outline">Project Outline</a>
 
 For our final project, we're looking to build a turn-based battle game. Inspired by a previous Maker's project battle. We'll be attempting to build our game using the Unreal game engine, and implement the skills of TDD and agile development we've learned whilst at Maker's Academy.
