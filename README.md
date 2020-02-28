@@ -1,5 +1,4 @@
-
-### [Makers Academy](http://www.makersacademy.com) - Week 11 & 12 Final Project
+# [Makers Academy](http://www.makersacademy.com) - Week 11 & 12 Final Project
 Paladin's Path (An Unreal Engine Game)
 -
 
