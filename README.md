@@ -60,7 +60,7 @@ Open the Unreal game engine and open the project by navigating the the Makers_Un
 
 In this part of our README, we'll link to videos showcasing our tests.
 
-## <a name="Game">Paladin's Path (See The Game)</a>
+# <a name="Game">Paladin's Path (See The Game)</a>
 
 #### The World
 [Story](#Story) | [BirdsEye Cinematic Trailer](#Birdseye) | [Map](#Map) 
@@ -127,4 +127,6 @@ Click the preview below to see our full one-minute cinematic trailer on [YouTube
 <a href="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-RockSpell.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-RockSpell.gif"/></div></a>
 
 
+## Behind the Game (Blueprints / Game Code)
 
+### Game Mechanics
