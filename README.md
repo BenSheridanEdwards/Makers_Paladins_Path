@@ -1,6 +1,6 @@
 # [Makers Academy](http://www.makersacademy.com) - Week 11 & 12 Final Project
-Paladin's Path (An Unreal Engine Game)
--
+
+## Paladin's Path (An Unreal Engine Game)
 
 [Project Outline](#Outline) | [Specification](#Specification) | [User Stories](#Story) | [Approach & Game Progression](#Approach) | [Installation Instructions](#Installation) | [Testing](#Testing) | [See The Game](#Game)
 
