@@ -64,9 +64,9 @@ In this part of our README, we'll link to videos showcasing our tests.
 #### The World
 [Story](#Story) | [BirdsEye Cinematic Trailer](#Birdseye) | [Map](#Map) 
 
-#### The Hero
+#### [The Hero](#Character)
 
-[Player Character](#Character) | [Physical Attacks](#PhysicalAttacks) | [Magical Attacks](#MagicalAttacks) | [Health Bar](#HealthBar)
+[Movement](#Movement) | [Dynamic Targeting](#Targeting) | [Physical Attacks](#PhysicalAttacks) | [Magical Attacks](#MagicalAttacks) | [Health Bar](#HealthBar)
 
 #### The Enemies
 
@@ -106,13 +106,51 @@ Click the preview below to see our full one-minute cinematic trailer on [YouTube
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-BirdsEye.png)
 
 
+
+### <a name="Character"> Player Character - The Paladin</a>
+
+#### Next we're going to take you through the core game mechanics and inputs you have availble whilst playing as our hero:
+
+##### <a name="Movement">Player Movement</a>
+
+You can move around with either A(Left),W(Up),S(Down),D(Right) or the directional arrows in the bottom right corner of your keyboard. You can also jump by pressing the space bar. 
+
+![Movement Video]()
+
+The blueprint behind this is shown below, these come by default when creating a third person character using the Unreal Game Engine, with the exception of *Find target with Axis Input*, which we'll talk about next:
+
+![Game Movement Blueprint](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-GameInputControlsBlueprint.png)
+
+##### <a name="Targeting">Dynamic Targeting</a>
+
+Our game also features dynamic targeting, which allows a player to lock-on to the nearest enemy using T and switch targets left or right using the Q and E keys respectively.
+
+![Targeting Video]()
+
+Targeted enemies are shown by a glowing red ring at the targets feed
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-DynamicTargetingMechanic.png)
+
+All credit for this targeting system goes to Grzegorz Szewczyk, whose targeting system we purchased on the Unreal MarketPlace. The red targeting ring is our own addition.  
+
+You'll find Grzegorz's dynamic targeting system [here](https://www.unrealengine.com/marketplace/en-US/product/dynamic-targeting). 
+
 ### <a name="PhysicalAttacks">Physical Attacks</a>
 
-##### As a Paladin, you have a sword and shield, and can deal devestating combo attacks: 
+##### As a Paladin, you have a sword and shield, and can deal devestating combo attacks
+
+Using the 4 key you can deal between 1-3 strikes in a single attack. 
 
 <p align="center"><b><i>Sword Strike Combo</i></b></p>
 <a href="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif"/></div></a>
 <br>
+
+*A single strike deals 20 damage to an enemy golem, but chained together in rapid succession the damage is multipled.*
+
+Below is the blueprint for our physical attacks, showing how we save combos and calculate damage:
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-MeleeAttacks.png)
+
 
 ### <a name="MagicalAttacks">Magical Attacks<a/>
   
@@ -125,7 +163,6 @@ Click the preview below to see our full one-minute cinematic trailer on [YouTube
 <p align="center"><b><i>Earth Magic</i></b></p>
 <a href="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-RockSpell.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-RockSpell.gif"/></div></a>
 
+In our blueprints, our spells are separated into their respective skills of fire, ice, and rock. Each playing an animation when cast, and then releasing the spell towards the direction the player is facing.
 
-## Behind the Game (Blueprints / Game Code)
-
-### Game Mechanics
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-SpellAttacks.png)
