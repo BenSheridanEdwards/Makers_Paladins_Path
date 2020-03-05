@@ -137,11 +137,20 @@ You'll find Grzegorz's dynamic targeting system [here](https://www.unrealengine.
 
 ### <a name="PhysicalAttacks">Physical Attacks</a>
 
-##### As a Paladin, you have a sword and shield, and can deal devestating combo attacks: 
+##### As a Paladin, you have a sword and shield, and can deal devestating combo attacks
+
+Using the 4 key you can deal between 1-3 strikes in a single attack. 
 
 <p align="center"><b><i>Sword Strike Combo</i></b></p>
 <a href="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif"/></div></a>
 <br>
+
+*A single strike deals 20 damage to an enemy golem, but chained together in rapid succession the damage is multipled.*
+
+Below is the blueprint for our physical attacks, showing how we save combos and calculate damage:
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-MeleeAttacks.png)
+
 
 ### <a name="MagicalAttacks">Magical Attacks<a/>
   
@@ -154,9 +163,6 @@ You'll find Grzegorz's dynamic targeting system [here](https://www.unrealengine.
 <p align="center"><b><i>Earth Magic</i></b></p>
 <a href="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-RockSpell.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-RockSpell.gif"/></div></a>
 
+In our blueprints, our spells are separated into their respective skills of fire, ice, and rock. Each playing an animation when cast, and then releasing the spell towards the direction the player is facing.
 
-## Behind the Game (Blueprints / Game Code)
-
-### Game Mechanics
-
-
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-SpellAttacks.png)
