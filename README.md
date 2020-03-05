@@ -2,7 +2,7 @@
 
 ## Paladin's Path (An Unreal Engine Game)
 
-[Project Outline](#Outline) | [Specification](#Specification) | [User Stories](#Story) | [Approach & Game Progression](#Approach) | [Installation Instructions](#Installation) | [Testing](#Testing) | [See The Game](#Game)
+[Project Outline](#Outline) | [Specification](#Specification) | [User Stories](#Story) | [Installation Instructions](#Installation) | [The Game](#Game) | [Testing](#Testing) 
 
 <div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-CinematicView-1.gif"/></div>
 
@@ -42,10 +42,6 @@ I'd like to start a game with full hit points.
 
 ```
 
-## <a name="Approach">Approach</a>
-
-
-
 ## <a name="Installation">Installation Instructions</a>
 
 Clone the repository from github then change directory into it.
@@ -54,8 +50,6 @@ Clone the repository from github then change directory into it.
 $ git clone https://github.com/BenSheridanEdwards/Makers_Paladins_Path.git
 ```
 Open the Unreal game engine and open the project by navigating the the Makers_Unreality folder and clicking the folder inside named, Unreality.
-
-## <a name="Testng">Testing</a>
 
 In this part of our README, we'll link to videos showcasing our tests.
 
@@ -170,3 +164,5 @@ In our blueprints, our spells are separated into their respective skills of fire
 ### <a name="Heatlh">Health Bar</a>
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-HealthBarGif.gif)
+
+## <a name="Testng">Testing</a>
