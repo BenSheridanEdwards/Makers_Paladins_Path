@@ -64,9 +64,9 @@ In this part of our README, we'll link to videos showcasing our tests.
 #### The World
 [Story](#Story) | [BirdsEye Cinematic Trailer](#Birdseye) | [Map](#Map) 
 
-#### The Hero
+#### [The Hero](#Character)
 
-[Player Character](#Character) | [Physical Attacks](#PhysicalAttacks) | [Magical Attacks](#MagicalAttacks) | [Health Bar](#HealthBar)
+[Movement](#Movement) | [Dynamic Targeting](#Targeting) | [Physical Attacks](#PhysicalAttacks) | [Magical Attacks](#MagicalAttacks) | [Health Bar](#HealthBar)
 
 #### The Enemies
 
@@ -111,7 +111,7 @@ Click the preview below to see our full one-minute cinematic trailer on [YouTube
 
 #### Next we're going to take you through the core game mechanics and inputs you have availble whilst playing as our hero:
 
-##### Player Movement
+##### <a name="Movement">Player Movement</a>
 
 You can move around with either A(Left),W(Up),S(Down),D(Right) or the directional arrows in the bottom right corner of your keyboard. You can also jump by pressing the space bar. 
 
@@ -121,7 +121,7 @@ The blueprint behind this is shown below, these come by default when creating a 
 
 ![Game Movement Blueprint](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-GameInputControlsBlueprint.png)
 
-##### Dynamic Targeting
+##### <a name="Targeting">Dynamic Targeting</a>
 
 Our game also features dynamic targeting, which allows a player to lock-on to the nearest enemy using T and switch targets left or right using the Q and E keys respectively.
 
