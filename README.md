@@ -125,7 +125,7 @@ The blueprint behind this is shown below, these come by default when creating a 
 
 Our game also features dynamic targeting, which allows a player to lock-on to the nearest enemy using T and switch targets left or right using the Q and E keys respectively.
 
-![Targeting Video]()
+![Targeting Video](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-DynamicTargetingGif.gif)
 
 Targeted enemies are shown by a glowing red ring at the targets feed
 
