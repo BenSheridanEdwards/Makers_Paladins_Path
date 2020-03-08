@@ -17,7 +17,7 @@
 
 <div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-PlayerStart..png" width="600"/></div>
 
-### [Overview](#Overview)
+### Overview
 
 For our final project, we all came together to build a game that would allow us to utilise the programming skills we learnt at Makers, whilst also exposing us to one of the gaming industries leading game creation tool, Unreal.
 
@@ -69,32 +69,26 @@ We also used agile methodologies, organising ourselves with daily stand-ups and 
 
 ### <a name="Story">Story</a>
   
-##### In Paladin's path you'll move through an open-world with different environments for you to explore: 
-
-![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-HeroCollage.png)
-
-##### Your goal is to reach the stronghold castle in the distance, where a powerful enemy awaits you:
+In Paladin's path you'll move through an open-world with different environments for you to explore. Your goal is to reach the stronghold castle in the distance, where a powerful enemy awaits you:
 
 ![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-Start-CastleView-Top.png)
 
-##### Along your path, you'll encounter enemies, called Golems. You'll fight multiple types of Golems during your quest:
+Along your path, you'll encounter enemies, called Golems. Golems are magical being made of inert matter like rock, fire, and ice. That have been animated to life by mysterious forces.
 
-![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/Golem%20Types.jpeg)
-*Golems are magical being made of inert matter like rock, fire, and ice. That have been animated to life by mysterious forces.*
-
-
-### <a name="Birdseye">Birdseye Cinematic Trailer</a>
+### <a name="Level">Level Design</a>
 
 Click the preview below to see our full one-minute cinematic trailer on [YouTube](https://youtu.be/R4Vh61J5KaI):
 
 <a href="https://youtu.be/R4Vh61J5KaI"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-CinematicView-1.gif"/></div></a>
 
+In Paladin's Path, you'll be guided through multiple environments as you make your way through our world:
 
-### <a name="Map">Map</a>
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-BirdsEye%20Markup.png)
 
-![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-BirdsEye.png)
-
-
+1. A bright sunny forest, home to rock golems.
+2. A scotched cave, home to fire golems.
+3. A frozen cavern, home to rock and ice golems. 
+4. A small snowy village, overrun by Ice golems.
 
 ### <a name="Character"> Player Character - The Paladin</a>
 
