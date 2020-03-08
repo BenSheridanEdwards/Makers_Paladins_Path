@@ -8,7 +8,21 @@
 
 ## <a name="Outline">Project Outline</a>
 
-For our final project, we're looking to build a turn-based battle game. Inspired by a previous Maker's project battle. We'll be attempting to build our game using the Unreal game engine, and implement the skills of TDD and agile development we've learned whilst at Maker's Academy.
+### Overview
+
+For our final project, we all came together to build a game that would allow us to utilise the programming skills we learnt at Makers whilst also exposing us to one of the gaming industries leading game creation engine, Unreal.
+
+Our original goal with this project was to create a turn-based battle game where a hero faught against enemies of different types using elemental projectile spells. But as we approached the end of the first week, we decided to pivot our game to the more comtempoary open-world style of game, where players could freely move around, encountered enemies throughout the world, and then could battle using a dynamic targeting system and a range of different attacks. 
+
+![Early Map Outline]()
+*An early stage map outlining a path for our hero*
+
+### Approach 
+
+Maker's Academy teaches us to take a very methodical approach to building a program. Using test-driven development, we were able to visualise the features we wanted to create, create an environment for the test, setup the variables needed for the test, expect an outcome, and then work towards passing that test in the simpliest way possible. 
+
+![Early Stage Test]()
+*An early stage picture of us testing the core mechanics of our battle game* 
 
 We will ensure we have:
 - Daily team standups and check-ins, end-of-day retrospectives, open communication on blocks or large problems, and pairing daily to tackle problems.
@@ -19,7 +33,7 @@ We will ensure we have:
 
 ## <a name="Specification">Specification</a>
 
-### Requirements
+### Initial Requirements
 
 - All game mechanics but be testable using Unreal's [Automation System Overview](https://docs.unrealengine.com/en-US/Programming/Automation/index.html) - Which will involve both feature and unit tests
 - Players will be able to battle NPCs in a turn based style, using a variety of attacks
@@ -28,11 +42,13 @@ We will ensure we have:
 - Players will have 4 basic attacks at their disposal
 - Attacks will be elemental by nature. Examples of elemental attacks are fire, water, air, earth, poison, and paralysis
 
-### Additional Features
+### Final Requirements
 
-- VR Capablity for our game
-- Multiple environments for the player to explore, all contained in the same level
-- Multiple enemy types
+### Additional Features we'd love to add
+
+- Enabling VR controls
+- Enemies having multiple attacks
+- More advanced enemy AI
 
 ## <a name="Story">User Stories</a>
 
