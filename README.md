@@ -11,7 +11,7 @@
 
 ### [Behind The Game (Unreal Blueprints)](#Code)
 
-[Game Mechanics]() | [Hero Mechanics]() | [Enemy Mechanics]()
+[Level Blueprints]() | [Hero Blueprints]() | [Enemy Blueprints]()
 
 ### [Download & Play](#Download)
 
