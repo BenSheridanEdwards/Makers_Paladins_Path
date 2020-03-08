@@ -97,7 +97,7 @@ In this part of our README, we'll link to videos showcasing our tests.
   
 ##### In Paladin's path you'll move through an open-world with different environments for you to explore: 
 
-![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-HeroCollage.jpeg)
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-HeroCollage.png)
 
 ##### Your goal is to reach the stronghold castle in the distance, where a powerful enemy awaits you:
 
