@@ -7,9 +7,11 @@
 
 ### [Our Game](#Game)
 
-| Story | Level Design | [Hero](#Hero) | [Enemies](#Enemies) |
+| [Story](#Story) | [Level Design](#Level) | [Hero](#Hero) | [Enemies](#Enemies) |
 
 ### [Download & Play](#Download)
+
+---
 
 ## <a name="Outline">Project Outline</a>
 
