@@ -26,19 +26,24 @@ Maker's Academy teaches us to take a very methodical approach to building a prog
 
 We also used agile methodologies, organising ourselves with daily stand-ups and retrospectives to ensure we were aligned and priorising well at all times. We reviewed each others code before every merge ensuring that all tests had passed.
 
-## <a name="Specification">Specification</a>
+## <a name="Specification">Our Game Specification</a>
 
 ### Initial Requirements
 
-- Players will be able to battle enemies in a turn based style
-- When an enemy is encountered, the player and enemies within a certain radius will be transported to an arena where they will be unable to move.
-- Players will have 4 basic attacks at their disposal: a basic sword attack, and three spells of earth, fire, and ice.
-- Players and enemys will have a health system, and when a player or enemy's health reaches zero, they die.
-- When players die, the player will respawn at the start location
-- When enemies die, it will signal a death animation, and they can't be attacked again
-- Players who succeed against all the opponents in a battle will be transported back to the map to continue their journey 
+- Players are able to battle enemies in a turn based style
+- When an enemy is encountered, the player and enemies within a certain radius are transported to an arena where they will be unable to move, and will take turns attacking with the enemies.
+- Players have 4 basic attacks at their disposal: a basic sword attack, and three spells of earth, fire, and ice.
+- Players and enemys have a set number of health points, when their health points reach zero, they die.
+- When players die, the player respawns at the start location
+- When enemies die, it initiates a death animation, and they can't be targeted in subsequent turns
+- Players who succeed against all of the opponents in a battle will be transported back to their location on the map to continue their journey 
 
 ### Final Requirements
+
+- Players are able to explore an open-world map, moving along a path where they'll encounter enemies of varing types.
+- When players encounter an enemy, they can lock-on to their nearest target and change targets left or right.
+- Players can attack enemies with sword, fire, rock, and ice attacks.
+- Depending on the type of attack and type of enemy, attacks can deal varing amounts of damage.
 
 ### Additional Features we'd love to add
 
@@ -49,9 +54,13 @@ We also used agile methodologies, organising ourselves with daily stand-ups and 
 ## <a name="Story">User Stories</a>
 
 ```
-As a player, so I can play a game of Unreality, 
-I'd like to start a game with full hit points.
+As a player of Paladin's Path,
+Throughout the game,
+I'd like to be able to move my character around in all directions.
 
+As a player of Paladin's Path,
+When I encounter enemies,
+I'd like to target them and see an indication that i'm succcessfully locked-on to a target.
 ```
 
 ## <a name="Installation">Installation Instructions</a>
