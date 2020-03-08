@@ -10,7 +10,7 @@
 
 ### Overview
 
-For our final project, we all came together to build a game that would allow us to utilise the programming skills we learnt at Makers whilst also exposing us to one of the gaming industries leading game creation engine, Unreal.
+For our final project, we all came together to build a game that would allow us to utilise the programming skills we learnt at Makers, whilst also exposing us to one of the gaming industries leading game creation tool, Unreal.
 
 Our original goal with this project was to create a turn-based battle game where a hero faught against enemies of different types using elemental projectile spells. But as we approached the end of the first week, we decided to pivot our game to the more comtempoary open-world style of game, where players could freely move around, encountered enemies throughout the world, and then could battle using a dynamic targeting system and a range of different attacks. 
 
@@ -21,28 +21,29 @@ Our original goal with this project was to create a turn-based battle game where
 
 Maker's Academy teaches us to take a very methodical approach to building a program. Using test-driven development, we were able to visualise the features we wanted to create, create an environment for the test, setup the variables needed for the test, expect an outcome, and then work towards passing that test in the simpliest way possible. 
 
-![Early Stage Test](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/Testing/BattleMechanics-EarlyStage/PaladinsPath-TestingDamageCollage.jpeg)
+![Early Stage Test](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/Testing/BattleMechanics-EarlyStage/PaladinsPath-TestingDamageCollagePhoto.jpeg)
 *An early stage view of us testing the core mechanics of projectiles and damage of our battle game* 
 
-We will ensure we have:
-- Daily team standups and check-ins, end-of-day retrospectives, open communication on blocks or large problems, and pairing daily to tackle problems.
-- A MVP created in Ruby that outlines the basic game mechanics and turn-based flow structure. 
-- All our code hosted on GitHub, using Jenkins for CI/CD, and that we can deploy straight to the browser or [localhost](https://docs.unrealengine.com/en-US/Platforms/HTML5/GettingStarted/index.html) server from the unreal engine.
-- High Coverage of game machanics in our unit and feature tests - Creating tests that cover a range of user experiences whilst playing our game, mapping out different scenarios for world navigation. winning and losing battles, and ensuring attack animations execute as expected.
+We also used agile methodologies, organising ourselves with daily stand-ups and retrospectives to ensure we were aligned and priorising well at all times. We reviewed each others code before every merge ensuring that all tests had passed.
 
-
-## <a name="Specification">Specification</a>
+## <a name="Specification">Our Game Specification</a>
 
 ### Initial Requirements
 
-- All game mechanics but be testable using Unreal's [Automation System Overview](https://docs.unrealengine.com/en-US/Programming/Automation/index.html) - Which will involve both feature and unit tests
-- Players will be able to battle NPCs in a turn based style, using a variety of attacks
-- Players and enemys will have a hit point counter, once that count reaches 0, the player or enemy dies
-- When players die, the game will be reset
-- Players will have 4 basic attacks at their disposal
-- Attacks will be elemental by nature. Examples of elemental attacks are fire, water, air, earth, poison, and paralysis
+- Players are able to battle enemies in a turn based style
+- When an enemy is encountered, the player and enemies within a certain radius are transported to an arena where they will be unable to move, and will take turns attacking with the enemies.
+- Players have 4 basic attacks at their disposal: a basic sword attack, and three spells of earth, fire, and ice.
+- Players and enemys have a set number of health points, when their health points reach zero, they die.
+- When players die, the player respawns at the start location
+- When enemies die, it initiates a death animation, and they can't be targeted in subsequent turns
+- Players who succeed against all of the opponents in a battle will be transported back to their location on the map to continue their journey 
 
 ### Final Requirements
+
+- Players are able to explore an open-world map, moving along a path where they'll encounter enemies of varing types.
+- When players encounter an enemy, they can lock-on to their nearest target and change targets left or right.
+- Players can attack enemies with sword, fire, rock, and ice attacks.
+- Depending on the type of attack and type of enemy, attacks can deal varing amounts of damage.
 
 ### Additional Features we'd love to add
 
@@ -53,9 +54,13 @@ We will ensure we have:
 ## <a name="Story">User Stories</a>
 
 ```
-As a player, so I can play a game of Unreality, 
-I'd like to start a game with full hit points.
+As a player of Paladin's Path,
+Throughout the game,
+I'd like to be able to move my character around in all directions.
 
+As a player of Paladin's Path,
+When I encounter enemies,
+I'd like to target them and see an indication that i'm succcessfully locked-on to a target.
 ```
 
 ## <a name="Installation">Installation Instructions</a>
