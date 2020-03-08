@@ -2,9 +2,19 @@
 
 ## Paladin's Path (An Unreal Engine Game)
 
-[Project Outline](#Outline) | [Specification](#Specification) | [User Stories](#Story) | [Installation Instructions](#Installation) | [The Game](#Game) | [Testing](#Testing) 
+### [Project Outline](#Outline) 
+
+| [Specification](#Specification) | [User Stories](#Story) | [Installation Instructions](#Installation) | [The Game](#Game) | [Testing](#Testing) 
 
 <div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-CinematicView-1.gif"/></div>
+
+
+
+
+
+
+
+
 
 ## <a name="Outline">Project Outline</a>
 
