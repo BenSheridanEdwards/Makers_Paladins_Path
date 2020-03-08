@@ -14,8 +14,8 @@ For our final project, we all came together to build a game that would allow us 
 
 Our original goal with this project was to create a turn-based battle game where a hero faught against enemies of different types using elemental projectile spells. But as we approached the end of the first week, we decided to pivot our game to the more comtempoary open-world style of game, where players could freely move around, encountered enemies throughout the world, and then could battle using a dynamic targeting system and a range of different attacks. 
 
-![Early Map Outline]()
-*An early stage map outlining a path for our hero*
+![Early Map vs Final Map](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-MapBeforevsAfter.jpeg)
+*An early stage vs our final map*
 
 ### Approach 
 
