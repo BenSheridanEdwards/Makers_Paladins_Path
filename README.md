@@ -24,23 +24,19 @@ Maker's Academy teaches us to take a very methodical approach to building a prog
 ![Early Stage Test](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/Testing/BattleMechanics-EarlyStage/PaladinsPath-TestingDamageCollagePhoto.jpeg)
 *An early stage view of us testing the core mechanics of projectiles and damage of our battle game* 
 
-We will ensure we have:
-- Daily team standups and check-ins, end-of-day retrospectives, open communication on blocks or large problems, and pairing daily to tackle problems.
-- A MVP created in Ruby that outlines the basic game mechanics and turn-based flow structure. 
-- All our code hosted on GitHub, using Jenkins for CI/CD, and that we can deploy straight to the browser or [localhost](https://docs.unrealengine.com/en-US/Platforms/HTML5/GettingStarted/index.html) server from the unreal engine.
-- High Coverage of game machanics in our unit and feature tests - Creating tests that cover a range of user experiences whilst playing our game, mapping out different scenarios for world navigation. winning and losing battles, and ensuring attack animations execute as expected.
-
+We also used agile methodologies, organising ourselves with daily stand-ups and retrospectives to ensure we were aligned and priorising well at all times. We reviewed each others code before every merge ensuring that all tests had passed.
 
 ## <a name="Specification">Specification</a>
 
 ### Initial Requirements
 
-- All game mechanics but be testable using Unreal's [Automation System Overview](https://docs.unrealengine.com/en-US/Programming/Automation/index.html) - Which will involve both feature and unit tests
-- Players will be able to battle NPCs in a turn based style, using a variety of attacks
-- Players and enemys will have a hit point counter, once that count reaches 0, the player or enemy dies
-- When players die, the game will be reset
-- Players will have 4 basic attacks at their disposal
-- Attacks will be elemental by nature. Examples of elemental attacks are fire, water, air, earth, poison, and paralysis
+- Players will be able to battle enemies in a turn based style
+- When an enemy is encountered, the player and enemies within a certain radius will be transported to an arena where they will be unable to move.
+- Players will have 4 basic attacks at their disposal: a basic sword attack, and three spells of earth, fire, and ice.
+- Players and enemys will have a health system, and when a player or enemy's health reaches zero, they die.
+- When players die, the player will respawn at the start location
+- When enemies die, it will signal a death animation, and they can't be attacked again
+- Players who succeed against all the opponents in a battle will be transported back to the map to continue their journey 
 
 ### Final Requirements
 
