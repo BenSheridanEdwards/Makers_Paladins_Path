@@ -79,17 +79,14 @@ In this part of our README, we'll link to videos showcasing our tests.
 #### The World
 [Story](#Story) | [BirdsEye Cinematic Trailer](#Birdseye) | [Map](#Map) 
 
-#### [The Hero](#Character)
+#### [Hero](#Character)
 
 [Movement](#Movement) | [Dynamic Targeting](#Targeting) | [Physical Attacks](#PhysicalAttacks) | [Magical Attacks](#MagicalAttacks) | [Health Bar](#HealthBar)
 
-#### The Enemies
+#### Enemies
 
 [Golems](#Golems) | [Fire Golem](#FireGolem) | [Ice Golem](#IceGolem) | [Rock Golem](#RockGolem) | [Final Boss](#BossGolem)
 
-####  Behind the Game (Blueprints / Game Code)
-
-[Game Mechanics](#Mechanics) | [Level Design](#Level) | [Animations](@Animations) | [Character Skills](#Skills) | [Enemy AI](#EnemyAI)
 
 ---
 
@@ -190,4 +187,6 @@ In our blueprints, our spells are separated into their respective skills of fire
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-HealthBarGif.gif)
 
-## <a name="Testng">Testing</a>
+## <a name="Golems">Golems</a>
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-GolemCollage.png)
