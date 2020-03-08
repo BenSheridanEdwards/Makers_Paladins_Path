@@ -7,19 +7,11 @@
 
 ### [Our Game](#Game)
 
-| Story | Level Design | [Player](Player) (Paladin) | [Enemies](#Enemies) (Golems)
-
-| [Specification](#Specification) | [User Stories](#Story) | [Installation Instructions](#Installation) | [The Game](#Game) | [Testing](#Testing) 
-
-<div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-PlayerStart.png" width="600"/></div>
+| Story | Level Design | [Hero](#Hero) | [Enemies](#Enemies) |
 
 ### [Download & Play](#Download)
 
-
-
-
-
-
+<div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-PlayerStart.png" width="600"/></div>
 
 ## <a name="Outline">Project Outline</a>
 
