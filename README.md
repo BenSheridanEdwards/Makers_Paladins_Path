@@ -11,7 +11,7 @@
 
 ### [Download & Play](#Download)
 
-<div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-PlayerStart.png" width="600"/></div>
+<div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-PlayerStart..png" width="600"/></div>
 
 ## <a name="Outline">Project Outline</a>
 
