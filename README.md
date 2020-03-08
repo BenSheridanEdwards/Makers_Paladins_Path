@@ -21,8 +21,8 @@ Our original goal with this project was to create a turn-based battle game where
 
 Maker's Academy teaches us to take a very methodical approach to building a program. Using test-driven development, we were able to visualise the features we wanted to create, create an environment for the test, setup the variables needed for the test, expect an outcome, and then work towards passing that test in the simpliest way possible. 
 
-![Early Stage Test]()
-*An early stage picture of us testing the core mechanics of our battle game* 
+![Early Stage Test](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/Testing/BattleMechanics-EarlyStage/PaladinsPath-TestingDamageCollage.jpeg)
+*An early stage view of us testing the core mechanics of projectiles and damage of our battle game* 
 
 We will ensure we have:
 - Daily team standups and check-ins, end-of-day retrospectives, open communication on blocks or large problems, and pairing daily to tackle problems.
