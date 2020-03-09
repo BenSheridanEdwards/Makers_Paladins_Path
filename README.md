@@ -23,23 +23,29 @@
 
 ### Overview
 
-For our final project, we all came together to build a game that would allow us to utilise the programming skills we learnt at Makers, whilst also exposing us to one of the gaming industries leading game creation tool, Unreal.
+For our final project, our team decided to build a game that would allow us to utilise the programming skills we've learnt at Maker's Academy, whilst also exposing us to the game engine Unreal, a leading creation tool used by gaming companies across the globe. 
 
-Our original goal with this project was to create a turn-based battle game where a hero faught against enemies of different types using elemental projectile spells. But as we approached the end of the first week, we decided to pivot our game to the more comtempoary open-world style of game, where players could freely move around, encountered enemies throughout the world, and then could battle using a dynamic targeting system and a range of different attacks. 
+Our original goal with this project was to create a turn-based battle game where a hero fought against enemies of different types using elemental projectile spells. But as we approached the end of the first week, we decided to pivot the core mechanic of our game to the more contemporary open-world style of game - Where players could freely move around, encounter enemies throughout the world, and then could battle using a dynamic targeting system with a combination of physical and ranged attacks.
 
 ### Approach 
 
-Maker's Academy teaches us to take a very methodical approach to building a program. Using test-driven development, we were able to visualise the features we wanted to create, create an environment for the test, setup the variables needed for the test, expect an outcome, and then work towards passing that test in the simpliest way possible. 
+Maker's Academy teaches us to take a very methodical approach to building a program. Using test-driven development, we were able to visualise the features we wanted to create, create an environment to run our test, setup the variables needed, expect an outcome, and then work towards passing that test in the simpliest way possible. 
 
 ![Early Stage Test](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/Testing/BattleMechanics-EarlyStage/PaladinsPath-TestingDamageCollagePhoto.jpeg)
-*An early stage view of us testing the core mechanics of projectiles and damage of our battle game* 
+*An early stage view of us testing two core mechanics - projectiles and damage* 
 
-We also used agile methodologies, organising ourselves with daily stand-ups and retrospectives to ensure we were aligned and priorising well at all times. We reviewed each others code before every merge ensuring that all tests had passed.
+We focused on using agile methodologies throughout our time working on this project, organising ourselves with daily stand-ups and retrospectives to ensure we were always aligned and priorising well at all times. We reviewed each others code before every merge, ensuring that all tests had passed and we had a high coverage of all features and edge cases.
 
 ### Progression
 
+During our planning process we created a simple mockup of the map the player would tranverse. We planned on having 3 battle zones and a boss zone, indicated by the circles of sand on the left-hand map below. 
+
 ![Early Map vs Final Map](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-MapBeforevsAfter.jpeg)
 *Map Creation: Day 1 Outline & Final Map*
+
+Our final map on the right follows a very similar design pattern. Players start in the upper-central forested area and make their way through the smoke into a fire-lit cavern, the first battle zone we envisioned. After defeating serveral enemies in this zone, they move deeper into the rocky cavern to the next battle zone, where they encounter severval similar enemies but of a different type. The third battle zone is located amongst frozen wooden huts in the bottom-right of the map. This is the final zone and enemy type the player encounters before moving to the boss zone, inside the castle the player first sees in the distance when they start the game.
+
+During our planning process, we also outlined many features we wanted to include in our game. I've listed them below, indicating those that are finished and implemented into the game, the bugs still present, and some additional features we'd love to implement in the future.
 
 ### Features
 - [x] Third person battle game in an open-world
