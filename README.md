@@ -7,7 +7,7 @@
 
 ### [Our Game](#Game)
 
-[Story](#Story) | [Level Design](#Level) | [Hero](#Hero) | [Enemies](#Enemies)
+[Story](#Story) | [Level Design](#Level) | [Hero](#Hero) | [Enemies](#Enemy)
 
 ### [Behind The Game (Unreal Blueprints)](#Code)
 
@@ -86,7 +86,7 @@ During our planning process, we also outlined many features we wanted to include
 
 # <a name="Game">Our Game, Paladin's Path</a>
 
-[Story](#Story) | [Level Design](#Level) | [Paladin Hero](#Hero) | [Enemies](#Enemies)
+[Story](#Story) | [Level Design](#Level) | [Paladin Hero](#Hero) | [Enemies](#Enemy)
 
 ## <a name="Story">Story</a>
   
@@ -185,7 +185,7 @@ Boulder is a earth-type attack that hurls a rock straight at your target, dealin
 
 <p align="center">Press [3] to cast Boulder</p>
 
-## <a name="Enemies">Enemies</a>
+## <a name="Enemy">Enemies</a>
 
 [Fire Golem](#FireGolem) | [Ice Golem](#IceGolem) | [Rock Golem](#RockGolem) | [Final Boss](#BossGolem)
 
