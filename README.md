@@ -132,15 +132,23 @@ The player can also use dynamic targeting, which allows a player to lock-on to t
 
 ### <a name="PhysicalAttacks">Physical Attacks</a>
 
-##### As a Paladin, you have a sword and shield, and can deal devestating combo attacks
+As a Paladin, you have a sword to defend yourself against the enemies you face on your journey:
 
-Using the (4) key you can deal you can swing your sword to hit an enemy with 20 damage points per hit. 
+#### Sword Slash 
 
-<p align="center"><b><i>Sword Slash</i></b></p>
+A single slash of your sword is an effective way to deal damage to your enemies. A single slash deals 20 damage points.
+
 <a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-SwordSlash.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-SwordSlash.gif"/></div></a>
-<br>
 
+<p align="center">Press [4] to slash with your sword</p>
 
+#### Sword Slash Combo
+
+Sword slashes can be chained together to multiply their attack power. 3 successful sword slashes adds 40 bonus damage points to your attack.
+
+<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-SwordSlash.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-SwordSlash.gif"/></div></a>
+
+<p align="center">Quickly press [4] three times to unleash your sword slash combo attack</p>
 
 ### <a name="MagicalAttacks">Magical Attacks<a/>
   
@@ -154,8 +162,6 @@ Fireball is a fire-type attack that hurls a ball of fire at your target, dealing
 
 
 <p align="center">Press [1] to cast Fireball</p>
-
-
 
 #### Ice Shard
 
