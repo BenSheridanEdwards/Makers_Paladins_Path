@@ -113,7 +113,7 @@ In Paladin's Path, you'll be guided through multiple environments as you make yo
 
 ## <a name="Hero">Paladin Hero</a>
 
-[Movement](#Movement) | | [Dynamic Targeting](#Targeting) | [Health Bar](#HealthBar) | [Attacks](#Attacks) |
+[Movement](#Movement) | [Targeting](#Targeting) | [Health](#HealthBar) | [Attacks](#Attacks)
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-HeroCollage.png)
 
@@ -123,16 +123,16 @@ You can move around with either A(Left),W(Up),S(Down),D(Right) or the directiona
 
 ![Movement Video]()
 
-### <a name="Targeting">Dynamic Targeting</a>
+### <a name="Targeting">Targeting</a>
 
 The player can also use dynamic targeting, which allows a player to lock-on to the nearest enemy using (T), and switch targets left or right using the (Q) and (E) keys respectively.
 
 ![Targeting Video]()
 *Targeted enemies are shown by a glowing red ring at the targets feed*
 
-### <a name="Heatlh">Health Bar</a>
+### <a name="Heatlh">Health</a>
 
-The hero starts out with 100 health points. Golem attacks deal 10 damage, so decrease your health by 10% for every hit. So your health points decrease, the health bar next to the heros head will both deplete and change colour from green to amber to red.
+The hero starts out with 100 health points. Golem attacks deal 10 damage, so decrease your health by 10% for every hit. As your health points decrease, the health bar next to the hero's head will both deplete and change colour from green to amber to red.
 
 ![Health Bar]()
 
@@ -211,7 +211,7 @@ All credit for this targeting system goes to Grzegorz Szewczyk, whose targeting 
 
 You'll find Grzegorz's dynamic targeting system [here](https://www.unrealengine.com/marketplace/en-US/product/dynamic-targeting). 
 
----
+## <a name="HeroBP">Hero Mechanics</a> 
 
 Below is the blueprint for our physical attacks, showing how we save combos and calculate damage:
 
