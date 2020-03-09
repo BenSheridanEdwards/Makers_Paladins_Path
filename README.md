@@ -146,8 +146,6 @@ Using the (4) key you can deal you can swing your sword to hit an enemy with 20 
   
 As a Paladin, you can also use magic. You have three spells, a fireball spell, an ice shard spell, and a boulder spell
 
-<br>
-
 #### Fireball
 
 Fireball is a fire-type attack that hurls a ball of fire at your target, dealing 20 damage points. Fireball is weak against earth-type enemies, dealing a reduced 15 damage points, and strong against water-type enemies, dealing a boosted 30 damage points.
@@ -155,9 +153,9 @@ Fireball is a fire-type attack that hurls a ball of fire at your target, dealing
 <a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-FireballSpell.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-FireballSpell.gif"/></div></a>
 
 
-<p align="center"><i>Press [1] to cast Fireball</i></p>
+<p align="center">Press [1] to cast Fireball</p>
 
-<br>
+
 
 #### Ice Shard
 
@@ -165,11 +163,15 @@ Ice Shard is a water-type attack that shoots a high speed shard of ice at your t
 
 <a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-IceShard.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-IceShard.gif"/></div></a>
 
+<p align="center">Press [2] to cast Ice Shard</p>
+
 #### Boulder
 
 Boulder is a earth-type attack that hurls a rock straight at your target, dealing 20 base damage. Boulder is weak against water-type enemies, dealing a reduced 15 damage points, and strong against fire-type enemies, dealing a boosted 30 damage points.
 
 <a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-BoulderSpell.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-BoulderSpell.gif"/></div></a>
+
+<p align="center">Press [3] to cast Boulder</p>
 
 ### <a name="Heatlh">Health Bar</a>
 
