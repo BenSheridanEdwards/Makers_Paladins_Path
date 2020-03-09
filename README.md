@@ -155,7 +155,7 @@ Fireball is a fire-type attack that hurls a ball of fire at your target, dealing
 
 <p align="center"><i>Press [1] to cast Fireball</i></p>
 
-<br>
+
 
 <p align="center"><b><i>Ice Shard</i></b></p>
 
