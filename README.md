@@ -48,18 +48,41 @@ Our final map on the right follows a very similar design pattern. Players start 
 During our planning process, we also outlined many features we wanted to include in our game. I've listed them below, indicating those that are finished and implemented into the game, the bugs still present, and some additional features we'd love to implement in the future.
 
 ### Features
-- [x] Third person battle game in an open-world
-- [ ] Next feature
+
+#### Core Level & Game Mechanics
+- [x] Open-World Map with multiple environments
+- [x] Health System for players and enemies
+- [x] Spells vary in effectiveness against different types of enemies
+- [x] Dynamic Targeting allowing players to lock-on to nearby enemies and switch between targets. 
+- [x] Player respawns upon death
+
+#### Player
+- [x] Player health bar that changes colour and size depending on the amount of remaining health points
+- [x] Players can cast spells of Fire, Ice, and Rock
+- [x] Players have a physical sword attack that deals a fixed amount of damage
+- [x] Different attack animations for physical and ranged attacks 
+- [x] Players can use a physical combo sword attack (Animation)
+- [ ] Combo attacks multiply attack damage 
+
+#### Enemies 
+- [x] Enemies have AI that allows them to move randomly within a designated area 
+- [x] Enemies have AI that allows them to follow a patrol path of set points in a designated area
+- [x] Enemies have AI that allows them to see the player when they're in the enemies line of sight.=
+- [x] Enemies chase and attack the player upon detecting them
+- [x] Enemies have a simple physical attack that deals a fixed amount of damage
 
 #### Bugs We're Squishing
+
+- [ ] Combo attacks not working as expected in terms of damage output
+- [ ]  
 
 
 #### Additional Features For The Future
 
+- Player has different animations for each spell
+- Enemies have multiple attacks
+- Enemies have more advanced AI - More senses, able to raise alarms, and alert other enemies when the player has been detected
 - Enabling VR controls
-- Enemies having multiple attacks
-- More advanced enemy AI
-
 
 ## <a name="Game">Our Game, Paladin's Path</a>
 
