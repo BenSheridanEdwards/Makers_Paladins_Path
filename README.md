@@ -136,14 +136,11 @@ The player can also use dynamic targeting, which allows a player to lock-on to t
 
 Using the (4) key you can deal you can swing your sword to hit an enemy with 20 damage points per hit. 
 
-<p align="center"><b><i>Sword Strike Combo</i></b></p>
-<a href="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif"/></div></a>
+<p align="center"><b><i>Sword Slash</i></b></p>
+<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-SwordSlash.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-SwordSlash.gif"/></div></a>
 <br>
 
 *A single strike deals 20 damage to an enemy golem, but chained together in rapid succession and the damage is multipled*
-
-
-
 
 ### <a name="MagicalAttacks">Magical Attacks<a/>
   
@@ -151,15 +148,15 @@ As a Paladin, you can also use magic. You have three spells, a fireball spell, a
 
 <p align="center"><b><i>Fireball</i></b></p>
 
-<a href=""><div align="center"><img src=""/></div></a>
+<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-FireballSpell.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-FireballSpell.gif"/></div></a>
 
 <p align="center"><b><i>Ice Shard</i></b></p>
 
-<a href=""><div align="center"><img src=""/></div></a>
+<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-IceShard.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-IceShard.gif"/></div></a>
 
 <p align="center"><b><i>Boulder</i></b></p>
 
-<a href=""><div align="center"><img src=""/></div></a>
+<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-BoulderSpell.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-BoulderSpell.gif"/></div></a>
 
 ### <a name="Heatlh">Health Bar</a>
 
