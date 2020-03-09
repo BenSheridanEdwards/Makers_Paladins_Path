@@ -3,7 +3,7 @@
 ## Paladin's Path (An Unreal Engine Game)
 
 ### [Project Outline](#Outline)
-[Overview]() | [Approach]() | [Progression]() | [Features]()
+[Overview](#Overview) | [Approach](#Approach) | [Progression](#Progression) | [Features](#Features)
 
 ### [Our Game](#Game)
 
@@ -17,17 +17,17 @@
 
 ---
 
-## <a name="Outline">Project Outline</a>
+# <a name="Outline">Project Outline</a>
 
 <div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-PlayerStart..png" width="600"/></div>
 
-### Overview
+## <a name="Overview">Overview</a>
 
 For our final project, our team decided to build a game that would allow us to utilise the programming skills we've learnt at Maker's Academy, whilst also exposing us to the game engine Unreal, a leading creation tool used by gaming companies across the globe. 
 
 Our original goal with this project was to create a turn-based battle game where a hero fought against enemies of different types using elemental projectile spells. But as we approached the end of the first week, we decided to pivot the core mechanic of our game to the more contemporary open-world style of game - Where players could freely move around, encounter enemies throughout the world, and then could battle using a dynamic targeting system with a combination of physical and ranged attacks.
 
-### Approach 
+## <a name="Approach">Approach</a> 
 
 Maker's Academy teaches us to take a very methodical approach to building a program. Using test-driven development, we were able to visualise the features we wanted to create, create an environment to run our test, setup the variables needed, expect an outcome, and then work towards passing that test in the simpliest way possible. 
 
@@ -36,7 +36,7 @@ Maker's Academy teaches us to take a very methodical approach to building a prog
 
 We focused on using agile methodologies throughout our time working on this project, organising ourselves with daily stand-ups and retrospectives to ensure we were always aligned and priorising well at all times. We reviewed each others code before every merge, ensuring that all tests had passed and we had a high coverage of all features and edge cases.
 
-### Progression
+## <a name="Progression">Progression</a> 
 
 During our planning process we created a simple mockup of the map the player would tranverse. We planned on having 3 battle zones and a boss zone, indicated by the circles of sand on the left-hand map below. 
 
@@ -47,7 +47,7 @@ Our final map on the right follows a very similar design pattern. Players start 
 
 During our planning process, we also outlined many features we wanted to include in our game. I've listed them below, indicating those that are finished and implemented into the game, the bugs still present, and some additional features we'd love to implement in the future.
 
-### Features
+## <a name="Features">Features</a> 
 
 #### Core Level & Game Mechanics
 - [x] Open-World Map with multiple environments
@@ -63,7 +63,7 @@ During our planning process, we also outlined many features we wanted to include
 - [x] Different attack animations for physical and ranged attacks 
 - [x] Players can use a physical combo sword attack (Animation)
 - [ ] Combo attacks multiply attack damage 
-- [ ]
+
 
 #### Enemies 
 - [x] Enemies have AI that allows them to move randomly within a designated area 
@@ -84,11 +84,9 @@ During our planning process, we also outlined many features we wanted to include
 - Enemies have more advanced AI - More senses, able to raise alarms, and alert other enemies when the player has been detected
 - Enabling VR controls
 
-
-
 ## <a name="Game">Our Game, Paladin's Path</a>
 
-[Story](#Story) | [Level Design](#Level) | [Hero](#Hero) | [Enemies](#Enemies)
+[Story](#Story) | [Level Design](#Level) | [Paladin Hero](#Hero) | [Enemies](#Enemies)
 
 ### <a name="Story">Story</a>
   
@@ -113,28 +111,36 @@ In Paladin's Path, you'll be guided through multiple environments as you make yo
 3. A frozen cavern, home to rock and ice golems. 
 4. A small snowy village, overrun by Ice golems.
 
-### <a name="Character"> Player Character - The Paladin</a>
+### <a name="Hero">Paladin Hero</a>
 
-[Movement](#Movement) | [Health Bar](#HealthBar) | [Dynamic Targeting](#Targeting) | [Attacks](#Attacks) |
+[Movement](#Movement) | | [Dynamic Targeting](#Targeting) | [Health Bar](#HealthBar) | [Attacks](#Attacks) |
 
-Next we're going to take you through the core game mechanics and inputs you have availble whilst playing as our hero:
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-HeroCollage.png)
 
-#### <a name="Movement">Player Movement</a>
+#### <a name="Movement">Movement</a>
 
 You can move around with either A(Left),W(Up),S(Down),D(Right) or the directional arrows in the bottom right corner of your keyboard. You can also jump by pressing the space bar. 
 
-##### <a name="Targeting">Dynamic Targeting</a>
+![Movement Video]()
+
+#### <a name="Targeting">Dynamic Targeting</a>
 
 The player can also use dynamic targeting, which allows a player to lock-on to the nearest enemy using (T), and switch targets left or right using the (Q) and (E) keys respectively.
 
-![Targeting Video](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-DynamicTargetingGif.gif)
+![Targeting Video]()
 *Targeted enemies are shown by a glowing red ring at the targets feed*
 
-### <a name="PhysicalAttacks">Physical Attacks</a>
+### <a name="Heatlh">Health Bar</a>
+
+The hero starts out with 100 health points. Golem attacks deal 10 damage, so decrease your health by 10% for every hit. So your health points decrease, the health bar next to the heros head will both deplete and change colour from green to amber to red.
+
+![Health Bar]()
+
+#### <a name="PhysicalAttacks">Physical Attacks</a>
 
 As a Paladin, you have a sword to defend yourself against the enemies you face on your journey:
 
-#### Sword Slash 
+##### Sword Slash 
 
 A single slash of your sword is an effective way to deal damage to your enemies. A single slash deals 20 damage points.
 
@@ -142,7 +148,7 @@ A single slash of your sword is an effective way to deal damage to your enemies.
 
 <p align="center">Press [4] to slash with your sword</p>
 
-#### Sword Slash Combo
+##### Sword Slash Combo
 
 Sword slashes can be chained together to multiply their attack power. 3 successful sword slashes adds 40 bonus damage points to your attack.
 
@@ -154,7 +160,7 @@ Sword slashes can be chained together to multiply their attack power. 3 successf
   
 As a Paladin, you can also use magic. You have three spells, a fireball spell, an ice shard spell, and a boulder spell
 
-#### Fireball
+##### Fireball
 
 Fireball is a fire-type attack that hurls a ball of fire at your target, dealing 20 damage points. Fireball is weak against earth-type enemies, dealing a reduced 15 damage points, and strong against water-type enemies, dealing a boosted 30 damage points.
 
@@ -163,7 +169,7 @@ Fireball is a fire-type attack that hurls a ball of fire at your target, dealing
 
 <p align="center">Press [1] to cast Fireball</p>
 
-#### Ice Shard
+##### Ice Shard
 
 Ice Shard is a water-type attack that shoots a high speed shard of ice at your target, dealing 20 damage points. Ice shard is weak against fire-type enemies, dealing a reduced 15 damage points, and strong against earth-type enemies, dealing a boosted 30 damage points.
 
@@ -171,7 +177,7 @@ Ice Shard is a water-type attack that shoots a high speed shard of ice at your t
 
 <p align="center">Press [2] to cast Ice Shard</p>
 
-#### Boulder
+##### Boulder
 
 Boulder is a earth-type attack that hurls a rock straight at your target, dealing 20 base damage. Boulder is weak against water-type enemies, dealing a reduced 15 damage points, and strong against fire-type enemies, dealing a boosted 30 damage points.
 
@@ -179,15 +185,7 @@ Boulder is a earth-type attack that hurls a rock straight at your target, dealin
 
 <p align="center">Press [3] to cast Boulder</p>
 
-### <a name="Heatlh">Health Bar</a>
-
-The hero starts out with 100 health points. Golem attacks deal 10 damage, so decrease your health by 10% for every hit. So your health points decrease, the health bar next to the heros head will both deplete and change colour from green to amber to red.
-
-![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-HealthBarGif.gif)
-
-## <a name="Enemies">Enemies</a>
-
-### Golems
+### <a name="Enemies">Enemies</a>
 
 [Fire Golem](#FireGolem) | [Ice Golem](#IceGolem) | [Rock Golem](#RockGolem) | [Final Boss](#BossGolem)
 
