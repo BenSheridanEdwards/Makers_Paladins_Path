@@ -1,6 +1,6 @@
 # [Makers Academy](http://www.makersacademy.com) - Week 11 & 12 Final Project
 
-## Paladin's Path - A Open-World Battle Game (Made With Unreal Engine 4)
+## Paladin's Path - An Open-World Battle Game (Made With Unreal Engine 4)
 
 ### [Project Outline](#Outline)
 [Overview](#Overview) | [Approach](#Approach) | [Progression](#Progression) | [Features](#Features)
@@ -220,3 +220,7 @@ Below is the blueprint for our physical attacks, showing how we save combos and 
 In our blueprints, our spells are separated into their respective skills of fire, ice, and rock. Each playing an animation when cast, and then releasing the spell towards the direction the player is facing.
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-SpellAttacksBlueprint.png)
+
+# <a name="Download">Download & Play</a>
+
+## Coming Soon...
