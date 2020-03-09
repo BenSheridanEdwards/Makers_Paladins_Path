@@ -84,21 +84,11 @@ During our planning process, we also outlined many features we wanted to include
 - Enemies have more advanced AI - More senses, able to raise alarms, and alert other enemies when the player has been detected
 - Enabling VR controls
 
+
+
 ## <a name="Game">Our Game, Paladin's Path</a>
 
-#### The World
-[Story](#Story) | [BirdsEye Cinematic Trailer](#Birdseye) | [Map](#Map) 
-
-#### [Hero](#Character)
-
-[Movement](#Movement) | [Dynamic Targeting](#Targeting) | [Physical Attacks](#PhysicalAttacks) | [Magical Attacks](#MagicalAttacks) | [Health Bar](#HealthBar)
-
-### Enemies
-
-[Golems](#Golems) | [Fire Golem](#FireGolem) | [Ice Golem](#IceGolem) | [Rock Golem](#RockGolem) | [Final Boss](#BossGolem)
-
-
----
+[Story](#Story) | [Level Design](#Level) | [Hero](#Hero) | [Enemies](#Enemies)
 
 ### <a name="Story">Story</a>
   
@@ -125,73 +115,57 @@ In Paladin's Path, you'll be guided through multiple environments as you make yo
 
 ### <a name="Character"> Player Character - The Paladin</a>
 
-#### Next we're going to take you through the core game mechanics and inputs you have availble whilst playing as our hero:
+[Movement](#Movement) | [Health Bar](#HealthBar) | [Dynamic Targeting](#Targeting) | [Attacks](#Attacks) |
 
-##### <a name="Movement">Player Movement</a>
+Next we're going to take you through the core game mechanics and inputs you have availble whilst playing as our hero:
+
+#### <a name="Movement">Player Movement</a>
 
 You can move around with either A(Left),W(Up),S(Down),D(Right) or the directional arrows in the bottom right corner of your keyboard. You can also jump by pressing the space bar. 
 
-![Movement Video]()
-
-The blueprint behind this is shown below, these come by default when creating a third person character using the Unreal Game Engine, with the exception of *Find target with Axis Input*, which we'll talk about next:
-
-![Game Movement Blueprint](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-GameInputControlsBlueprint.png)
-
 ##### <a name="Targeting">Dynamic Targeting</a>
 
-Our game also features dynamic targeting, which allows a player to lock-on to the nearest enemy using T and switch targets left or right using the Q and E keys respectively.
+The player can also use dynamic targeting, which allows a player to lock-on to the nearest enemy using (T), and switch targets left or right using the (Q) and (E) keys respectively.
 
 ![Targeting Video](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-DynamicTargetingGif.gif)
-
-Targeted enemies are shown by a glowing red ring at the targets feed
-
-![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-DynamicTargetingMechanic.png)
-
-All credit for this targeting system goes to Grzegorz Szewczyk, whose targeting system we purchased on the Unreal MarketPlace. The red targeting ring is our own addition.  
-
-You'll find Grzegorz's dynamic targeting system [here](https://www.unrealengine.com/marketplace/en-US/product/dynamic-targeting). 
+*Targeted enemies are shown by a glowing red ring at the targets feed*
 
 ### <a name="PhysicalAttacks">Physical Attacks</a>
 
 ##### As a Paladin, you have a sword and shield, and can deal devestating combo attacks
 
-Using the 4 key you can deal between 1-3 strikes in a single attack. 
+Using the (4) key you can deal you can swing your sword to hit an enemy with 20 damage points per hit. 
 
 <p align="center"><b><i>Sword Strike Combo</i></b></p>
 <a href="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-SwordAttack1Gif.gif"/></div></a>
 <br>
 
-*A single strike deals 20 damage to an enemy golem, but chained together in rapid succession the damage is multipled.*
+*A single strike deals 20 damage to an enemy golem, but chained together in rapid succession and the damage is multipled*
 
-Below is the blueprint for our physical attacks, showing how we save combos and calculate damage:
 
-![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-MeleeAttacks.png)
 
 
 ### <a name="MagicalAttacks">Magical Attacks<a/>
   
-##### As a Paladin, you're also blessed with magic, and command fire, ice, and earth spells:
+As a Paladin, you can also use magic. You have three spells, a fireball spell, an ice shard spell, and a boulder spell
 
-<p align="center"><b><i>Fire Magic</i></b></p>
+<p align="center"><b><i>Fireball</i></b></p>
 
-<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanicsFireSpellGif.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanicsFireSpellGif.gif"/></div></a>
+<a href=""><div align="center"><img src=""/></div></a>
 
-<p align="center"><b><i>Ice Magic</i></b></p>
+<p align="center"><b><i>Ice Shard</i></b></p>
 
-<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-IceSpellGif.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-IceSpellGif.gif"/></div></a>
+<a href=""><div align="center"><img src=""/></div></a>
 
-<p align="center"><b><i>Earth Magic</i></b></p>
-<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-RockSpellGif.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-RockSpellGif.gif"/></div></a>
+<p align="center"><b><i>Boulder</i></b></p>
 
-In our blueprints, our spells are separated into their respective skills of fire, ice, and rock. Each playing an animation when cast, and then releasing the spell towards the direction the player is facing.
-
-![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-SpellAttacksBlueprint.png)
+<a href=""><div align="center"><img src=""/></div></a>
 
 ### <a name="Heatlh">Health Bar</a>
 
+The hero starts out with 100 health points. Golem attacks deal 10 damage, so decrease your health by 10% for every hit. So your health points decrease, the health bar next to the heros head will both deplete and change colour from green to amber to red.
+
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-HealthBarGif.gif)
-
-
 
 ## <a name="Enemies">Enemies</a>
 
@@ -200,3 +174,32 @@ In our blueprints, our spells are separated into their respective skills of fire
 [Fire Golem](#FireGolem) | [Ice Golem](#IceGolem) | [Rock Golem](#RockGolem) | [Final Boss](#BossGolem)
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-GolemCollage.png)
+
+
+
+
+
+---
+
+
+The blueprint behind this is shown below, these come by default when creating a third person character using the Unreal Game Engine, with the exception of *Find target with Axis Input*, which we'll talk about next:
+
+![Game Movement Blueprint](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-GameInputControlsBlueprint.png)
+
+---
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-DynamicTargetingMechanic.png)
+
+All credit for this targeting system goes to Grzegorz Szewczyk, whose targeting system we purchased on the Unreal MarketPlace. The red targeting ring is our own addition.  
+
+You'll find Grzegorz's dynamic targeting system [here](https://www.unrealengine.com/marketplace/en-US/product/dynamic-targeting). 
+
+---
+
+Below is the blueprint for our physical attacks, showing how we save combos and calculate damage:
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-MeleeAttacks.png)
+
+In our blueprints, our spells are separated into their respective skills of fire, ice, and rock. Each playing an animation when cast, and then releasing the spell towards the direction the player is facing.
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-SpellAttacksBlueprint.png)
