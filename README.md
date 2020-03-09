@@ -3,26 +3,29 @@
 ## Paladin's Path (An Unreal Engine Game)
 
 ### [Project Outline](#Outline)
-| [Overview]() | [Approach]() | [Progression]() | [Features]() |
+[Overview]() | [Approach]() | [Progression]() | [Features]()
 
 ### [Our Game](#Game)
 
-| Story | Level Design | [Hero](#Hero) | [Enemies](#Enemies) |
+[Story](#Story) | [Level Design](#Level) | [Hero](#Hero) | [Enemies](#Enemies)
+
+### [Behind The Game (Unreal Blueprints)](#Code)
+
+[Game Mechanics]() | [Hero Blueprints]() | [Enemy Blueprints]()
 
 ### [Download & Play](#Download)
 
-<div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-PlayerStart.png" width="600"/></div>
+---
 
 ## <a name="Outline">Project Outline</a>
+
+<div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-PlayerStart..png" width="600"/></div>
 
 ### Overview
 
 For our final project, we all came together to build a game that would allow us to utilise the programming skills we learnt at Makers, whilst also exposing us to one of the gaming industries leading game creation tool, Unreal.
 
 Our original goal with this project was to create a turn-based battle game where a hero faught against enemies of different types using elemental projectile spells. But as we approached the end of the first week, we decided to pivot our game to the more comtempoary open-world style of game, where players could freely move around, encountered enemies throughout the world, and then could battle using a dynamic targeting system and a range of different attacks. 
-
-![Early Map vs Final Map](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-MapBeforevsAfter.jpeg)
-*Map Creation: Day 1 Outline & Final Map*
 
 ### Approach 
 
@@ -33,55 +36,26 @@ Maker's Academy teaches us to take a very methodical approach to building a prog
 
 We also used agile methodologies, organising ourselves with daily stand-ups and retrospectives to ensure we were aligned and priorising well at all times. We reviewed each others code before every merge ensuring that all tests had passed.
 
-## <a name="Specification">Our Game Specification</a>
+### Progression
 
-### Initial Requirements
+![Early Map vs Final Map](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-MapBeforevsAfter.jpeg)
+*Map Creation: Day 1 Outline & Final Map*
 
-- Players are able to battle enemies in a turn based style
-- When an enemy is encountered, the player and enemies within a certain radius are transported to an arena where they will be unable to move, and will take turns attacking with the enemies.
-- Players have 4 basic attacks at their disposal: a basic sword attack, and three spells of earth, fire, and ice.
-- Players and enemys have a set number of health points, when their health points reach zero, they die.
-- When players die, the player respawns at the start location
-- When enemies die, it initiates a death animation, and they can't be targeted in subsequent turns
-- Players who succeed against all of the opponents in a battle will be transported back to their location on the map to continue their journey 
+### Features
+- [x] Third person battle game in an open-world
+- [ ] Next feature
 
-### Final Requirements
+#### Bugs We're Squishing
 
-- Players are able to explore an open-world map, moving along a path where they'll encounter enemies of varing types.
-- When players encounter an enemy, they can lock-on to their nearest target and change targets left or right.
-- Players can attack enemies with sword, fire, rock, and ice attacks.
-- Depending on the type of attack and type of enemy, attacks can deal varing amounts of damage.
 
-### Additional Features we'd love to add
+#### Additional Features For The Future
 
 - Enabling VR controls
 - Enemies having multiple attacks
 - More advanced enemy AI
 
-## <a name="Story">User Stories</a>
 
-```
-As a player of Paladin's Path,
-Throughout the game,
-I'd like to be able to move my character around in all directions.
-
-As a player of Paladin's Path,
-When I encounter enemies,
-I'd like to target them and see an indication that i'm succcessfully locked-on to a target.
-```
-
-## <a name="Installation">Installation Instructions</a>
-
-Clone the repository from github then change directory into it.
-
-```
-$ git clone https://github.com/BenSheridanEdwards/Makers_Paladins_Path.git
-```
-Open the Unreal game engine and open the project by navigating the the Makers_Unreality folder and clicking the folder inside named, Unreality.
-
-In this part of our README, we'll link to videos showcasing our tests.
-
-# <a name="Game">Paladin's Path (See The Game)</a>
+## <a name="Game">Our Game, Paladin's Path</a>
 
 #### The World
 [Story](#Story) | [BirdsEye Cinematic Trailer](#Birdseye) | [Map](#Map) 
@@ -90,7 +64,7 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 [Movement](#Movement) | [Dynamic Targeting](#Targeting) | [Physical Attacks](#PhysicalAttacks) | [Magical Attacks](#MagicalAttacks) | [Health Bar](#HealthBar)
 
-#### Enemies
+### Enemies
 
 [Golems](#Golems) | [Fire Golem](#FireGolem) | [Ice Golem](#IceGolem) | [Rock Golem](#RockGolem) | [Final Boss](#BossGolem)
 
@@ -99,32 +73,26 @@ In this part of our README, we'll link to videos showcasing our tests.
 
 ### <a name="Story">Story</a>
   
-##### In Paladin's path you'll move through an open-world with different environments for you to explore: 
-
-![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-HeroCollage.png)
-
-##### Your goal is to reach the stronghold castle in the distance, where a powerful enemy awaits you:
+In Paladin's path you'll move through an open-world with different environments for you to explore. Your goal is to reach the stronghold castle in the distance, where a powerful enemy awaits you:
 
 ![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-Start-CastleView-Top.png)
 
-##### Along your path, you'll encounter enemies, called Golems. You'll fight multiple types of Golems during your quest:
+Along your path, you'll encounter enemies, called Golems. Golems are magical being made of inert matter like rock, fire, and ice. That have been animated to life by mysterious forces.
 
-![](https://github.com/BenSheridanEdwards/Makers_Final_Project_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/Golem%20Types.jpeg)
-*Golems are magical being made of inert matter like rock, fire, and ice. That have been animated to life by mysterious forces.*
-
-
-### <a name="Birdseye">Birdseye Cinematic Trailer</a>
+### <a name="Level">Level Design</a>
 
 Click the preview below to see our full one-minute cinematic trailer on [YouTube](https://youtu.be/R4Vh61J5KaI):
 
 <a href="https://youtu.be/R4Vh61J5KaI"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-CinematicView-1.gif"/></div></a>
 
+In Paladin's Path, you'll be guided through multiple environments as you make your way through our world:
 
-### <a name="Map">Map</a>
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-BirdsEye%20Markup.png)
 
-![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-BirdsEye.png)
-
-
+1. A bright sunny forest, home to rock golems.
+2. A scotched cave, home to fire golems.
+3. A frozen cavern, home to rock and ice golems. 
+4. A small snowy village, overrun by Ice golems.
 
 ### <a name="Character"> Player Character - The Paladin</a>
 
@@ -194,6 +162,12 @@ In our blueprints, our spells are separated into their respective skills of fire
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-HealthBarGif.gif)
 
-## <a name="Golems">Golems</a>
+
+
+## <a name="Enemies">Enemies</a>
+
+### Golems
+
+[Fire Golem](#FireGolem) | [Ice Golem](#IceGolem) | [Rock Golem](#RockGolem) | [Final Boss](#BossGolem)
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-GolemCollage.png)
