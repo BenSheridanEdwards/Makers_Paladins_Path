@@ -7,7 +7,7 @@
 
 ### [Our Game](#Game)
 
-[Story](#Story) | [Level Design](#Level) | [Hero](#Hero) | [Enemies](#Enemy)
+[Story](#Story) | [Level Design](#Level) | [Player Hero](#Hero) | [Enemies](#Enemy)
 
 ### [Behind The Game (Unreal Blueprints)](#Code)
 
@@ -111,7 +111,7 @@ In Paladin's Path, you'll be guided through multiple environments as you make yo
 3. A frozen cavern, home to rock and ice golems. 
 4. A small snowy village, overrun by Ice golems.
 
-## <a name="Hero">Paladin Hero</a>
+## <a name="Hero">Player Hero, Paladin</a>
 
 [Movement](#Movement) | [Targeting](#Targeting) | [Health](#HealthBar) | [Attacks](#Attacks)
 
