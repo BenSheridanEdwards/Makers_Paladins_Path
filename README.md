@@ -63,6 +63,7 @@ During our planning process, we also outlined many features we wanted to include
 - [x] Different attack animations for physical and ranged attacks 
 - [x] Players can use a physical combo sword attack (Animation)
 - [ ] Combo attacks multiply attack damage 
+- [ ]
 
 #### Enemies 
 - [x] Enemies have AI that allows them to move randomly within a designated area 
@@ -74,8 +75,7 @@ During our planning process, we also outlined many features we wanted to include
 #### Bugs We're Squishing
 
 - [ ] Combo attacks not working as expected in terms of damage output
-- [ ]  
-
+- [ ] Overlap with a dead enemy body causes them the mesh to stand upright and then fall down .
 
 #### Additional Features For The Future
 
