@@ -1,6 +1,6 @@
 # [Makers Academy](http://www.makersacademy.com) - Week 11 & 12 Final Project
 
-## Paladin's Path (An Unreal Engine Game)
+## Paladin's Path - A Open-World Battle Game (Made With Unreal Engine 4)
 
 ### [Project Outline](#Outline)
 [Overview](#Overview) | [Approach](#Approach) | [Progression](#Progression) | [Features](#Features)
@@ -84,11 +84,11 @@ During our planning process, we also outlined many features we wanted to include
 - Enemies have more advanced AI - More senses, able to raise alarms, and alert other enemies when the player has been detected
 - Enabling VR controls
 
-## <a name="Game">Our Game, Paladin's Path</a>
+# <a name="Game">Our Game, Paladin's Path</a>
 
 [Story](#Story) | [Level Design](#Level) | [Paladin Hero](#Hero) | [Enemies](#Enemies)
 
-### <a name="Story">Story</a>
+## <a name="Story">Story</a>
   
 In Paladin's path you'll move through an open-world with different environments for you to explore. Your goal is to reach the stronghold castle in the distance, where a powerful enemy awaits you:
 
@@ -96,7 +96,7 @@ In Paladin's path you'll move through an open-world with different environments 
 
 Along your path, you'll encounter enemies, called Golems. Golems are magical being made of inert matter like rock, fire, and ice. That have been animated to life by mysterious forces.
 
-### <a name="Level">Level Design</a>
+## <a name="Level">Level Design</a>
 
 Click the preview below to see our full one-minute cinematic trailer on [YouTube](https://youtu.be/R4Vh61J5KaI):
 
@@ -111,19 +111,19 @@ In Paladin's Path, you'll be guided through multiple environments as you make yo
 3. A frozen cavern, home to rock and ice golems. 
 4. A small snowy village, overrun by Ice golems.
 
-### <a name="Hero">Paladin Hero</a>
+## <a name="Hero">Paladin Hero</a>
 
 [Movement](#Movement) | | [Dynamic Targeting](#Targeting) | [Health Bar](#HealthBar) | [Attacks](#Attacks) |
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-HeroCollage.png)
 
-#### <a name="Movement">Movement</a>
+### <a name="Movement">Movement</a>
 
 You can move around with either A(Left),W(Up),S(Down),D(Right) or the directional arrows in the bottom right corner of your keyboard. You can also jump by pressing the space bar. 
 
 ![Movement Video]()
 
-#### <a name="Targeting">Dynamic Targeting</a>
+### <a name="Targeting">Dynamic Targeting</a>
 
 The player can also use dynamic targeting, which allows a player to lock-on to the nearest enemy using (T), and switch targets left or right using the (Q) and (E) keys respectively.
 
@@ -136,11 +136,11 @@ The hero starts out with 100 health points. Golem attacks deal 10 damage, so dec
 
 ![Health Bar]()
 
-#### <a name="PhysicalAttacks">Physical Attacks</a>
+### <a name="PhysicalAttacks">Physical Attacks</a>
 
 As a Paladin, you have a sword to defend yourself against the enemies you face on your journey:
 
-##### Sword Slash 
+#### Sword Slash 
 
 A single slash of your sword is an effective way to deal damage to your enemies. A single slash deals 20 damage points.
 
@@ -148,7 +148,7 @@ A single slash of your sword is an effective way to deal damage to your enemies.
 
 <p align="center">Press [4] to slash with your sword</p>
 
-##### Sword Slash Combo
+#### Sword Slash Combo
 
 Sword slashes can be chained together to multiply their attack power. 3 successful sword slashes adds 40 bonus damage points to your attack.
 
@@ -160,7 +160,7 @@ Sword slashes can be chained together to multiply their attack power. 3 successf
   
 As a Paladin, you can also use magic. You have three spells, a fireball spell, an ice shard spell, and a boulder spell
 
-##### Fireball
+#### Fireball
 
 Fireball is a fire-type attack that hurls a ball of fire at your target, dealing 20 damage points. Fireball is weak against earth-type enemies, dealing a reduced 15 damage points, and strong against water-type enemies, dealing a boosted 30 damage points.
 
@@ -169,7 +169,7 @@ Fireball is a fire-type attack that hurls a ball of fire at your target, dealing
 
 <p align="center">Press [1] to cast Fireball</p>
 
-##### Ice Shard
+#### Ice Shard
 
 Ice Shard is a water-type attack that shoots a high speed shard of ice at your target, dealing 20 damage points. Ice shard is weak against fire-type enemies, dealing a reduced 15 damage points, and strong against earth-type enemies, dealing a boosted 30 damage points.
 
@@ -177,7 +177,7 @@ Ice Shard is a water-type attack that shoots a high speed shard of ice at your t
 
 <p align="center">Press [2] to cast Ice Shard</p>
 
-##### Boulder
+#### Boulder
 
 Boulder is a earth-type attack that hurls a rock straight at your target, dealing 20 base damage. Boulder is weak against water-type enemies, dealing a reduced 15 damage points, and strong against fire-type enemies, dealing a boosted 30 damage points.
 
@@ -185,7 +185,7 @@ Boulder is a earth-type attack that hurls a rock straight at your target, dealin
 
 <p align="center">Press [3] to cast Boulder</p>
 
-### <a name="Enemies">Enemies</a>
+## <a name="Enemies">Enemies</a>
 
 [Fire Golem](#FireGolem) | [Ice Golem](#IceGolem) | [Rock Golem](#RockGolem) | [Final Boss](#BossGolem)
 
@@ -193,10 +193,11 @@ Boulder is a earth-type attack that hurls a rock straight at your target, dealin
 
 
 
+# <a name="Code">Behind The Game (Unreal Blueprints)</a>
 
+[Game Mechanics](#GameBP) | [Hero Blueprints](#HeroBP) | [Enemy Blueprints](#EnemyBP)
 
----
-
+## <a name="GameBP">Game Mechanics</a> 
 
 The blueprint behind this is shown below, these come by default when creating a third person character using the Unreal Game Engine, with the exception of *Find target with Axis Input*, which we'll talk about next:
 
