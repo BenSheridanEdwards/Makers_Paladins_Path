@@ -117,6 +117,8 @@ In Paladin's Path, you'll be guided through multiple environments as you make yo
 
 You can move around with either A(Left),W(Up),S(Down),D(Right) or the directional arrows on your keyboard. You can also jump by pressing the space bar. 
 
+<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-Movement.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-Movement.gif"/></div></a>
+
 ### <a name="Targeting">Targeting</a>
 
 The player can also use dynamic targeting, which allows a player to lock-on to the nearest enemy using (T), and switch targets left or right using the (Q) and (E) keys respectively.
