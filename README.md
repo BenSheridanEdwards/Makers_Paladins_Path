@@ -11,7 +11,7 @@
 
 ### [Behind The Game (Unreal Blueprints)](#Code)
 
-[Game Mechanics]() | [Hero Blueprints]() | [Enemy Blueprints]()
+[Hero Blueprints]() | [Enemy Blueprints]()
 
 ### [Download & Play](#Download)
 
@@ -191,7 +191,7 @@ In Paladin's Path, when you die, you immediately respawn at the beginning of the
 
 ## <a name="Golems">Enemy Golems</a>
 
-[Golem Types](#GolemTypes) | [Golem AI](#GolemAI) | [Golem Attacks](#GolemAttacks) | 
+[Golem Types](#GolemTypes) | [Golem AI](#GolemAI) | [Golem Attacks](#GolemAttacks)
 
 ### <a name="GolemTypes">Golems Types</a>
 
