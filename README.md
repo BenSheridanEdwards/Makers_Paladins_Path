@@ -131,7 +131,7 @@ The player can also use dynamic targeting, which allows a player to lock-on to t
 
 The hero starts out with 100 health points. Golem attacks deal 10 damage, so decrease your health by 10% for every hit. As your health points decrease, the health bar next to the hero's head will both deplete and change colour from green to amber to red.
 
-![Health Bar](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-HealthBarGif.gif)
+![Health Bar](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-HealthBar.gif)
 
 ### <a name="PhysicalAttacks">Physical Attacks</a>
 
@@ -162,7 +162,7 @@ As a Paladin, you can also use magic. You have three spells, a fireball spell, a
 
 Fireball is a fire-type attack that hurls a ball of fire at your target, dealing 20 damage points. Fireball is weak against earth-type enemies, dealing a reduced 15 damage points, and strong against water-type enemies, dealing a boosted 30 damage points.
 
-<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-FireballSpell-AgainstIceGolems.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-FireballSpell-AgainstIceGolems.gif"/></div></a>
+<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-FireballSpell.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-FireballSpell.gif"/></div></a>
 
 
 <p align="center">Press [1] to cast Fireball</p>
