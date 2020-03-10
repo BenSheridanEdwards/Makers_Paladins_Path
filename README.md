@@ -115,16 +115,14 @@ In Paladin's Path, you'll be guided through multiple environments as you make yo
 
 ### <a name="Movement">Movement</a>
 
-You can move around with either A(Left),W(Up),S(Down),D(Right) or the directional arrows in the bottom right corner of your keyboard. You can also jump by pressing the space bar. 
-
-![Movement Video]()
+You can move around with either A(Left),W(Up),S(Down),D(Right) or the directional arrows on your keyboard. You can also jump by pressing the space bar. 
 
 ### <a name="Targeting">Targeting</a>
 
 The player can also use dynamic targeting, which allows a player to lock-on to the nearest enemy using (T), and switch targets left or right using the (Q) and (E) keys respectively.
 
 ![Targeting Video]()
-*Targeted enemies are shown by a glowing red ring at the targets feed*
+*Targeted enemies are shown by a glowing red ring at the targets feet*
 
 ### <a name="Heatlh">Health</a>
 
@@ -147,8 +145,6 @@ A single slash of your sword is an effective way to deal damage to your enemies.
 #### Sword Slash Combo
 
 Sword slashes can be chained together to multiply their attack power. 3 successful sword slashes adds 40 bonus damage points to your attack.
-
-<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-SwordSlash.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-SwordSlash.gif"/></div></a>
 
 <p align="center">Quickly press [4] three times to unleash your sword slash combo attack</p>
 
