@@ -123,7 +123,7 @@ The player can also use dynamic targeting, which allows a player to lock-on to t
 
 <a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-DynamicTargeting.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-DynamicTargeting.gif"/></div></a>
 
-*Targeted enemies are shown by a glowing red ring at the targets feet*
+<p align="center">Targeted enemies are shown by a glowing red ring at the targets feet</p>
 
 ### <a name="Heatlh">Health</a>
 
