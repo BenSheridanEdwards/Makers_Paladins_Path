@@ -121,7 +121,8 @@ You can move around with either A(Left),W(Up),S(Down),D(Right) or the directiona
 
 The player can also use dynamic targeting, which allows a player to lock-on to the nearest enemy using (T), and switch targets left or right using the (Q) and (E) keys respectively.
 
-![Targeting Video](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-DynamicTargeting.gif)
+<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-DynamicTargeting.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-DynamicTargeting.gif"/></div></a>
+
 *Targeted enemies are shown by a glowing red ring at the targets feet*
 
 ### <a name="Heatlh">Health</a>
