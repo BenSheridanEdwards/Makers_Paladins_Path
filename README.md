@@ -7,7 +7,7 @@
 
 ### [Our Game](#Game)
 
-[Story](#Story) | [Level Design](#Level) | [Player Hero](#Hero) | [Enemies](#Enemy)
+[Story](#Story) | [Level Design](#Level) | [Player Hero](#Hero) | [Enemy Golems](#Golems)
 
 ### [Behind The Game (Unreal Blueprints)](#Code)
 
@@ -86,7 +86,7 @@ During our planning process, we also outlined many features we wanted to include
 
 # <a name="Game">Our Game, Paladin's Path</a>
 
-[Story](#Story) | [Level Design](#Level) | [Paladin Hero](#Hero) | [Enemies](#Enemy)
+[Story](#Story) | [Level Design](#Level) | [Paladin Hero](#Hero) | [Enemy Golems](#Golems)
 
 ## <a name="Story">Story</a>
   
@@ -109,7 +109,7 @@ In Paladin's Path, you'll be guided through multiple environments as you make yo
 
 ## <a name="Hero">Player Hero, Paladin</a>
 
-[Movement](#Movement) | [Targeting](#Targeting) | [Health](#HealthBar) | [Attacks](#Attacks)
+[Movement](#Movement) | [Targeting](#Targeting) | [Health](#HealthBar) | [Physical Attacks](#PhysicalAttacks) | [Magical Attacks](#MagicalAttacks) | [Death & Respawn](#Death)
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-HeroCollage.png)
 
@@ -183,11 +183,39 @@ Boulder is a earth-type attack that hurls a rock straight at your target, dealin
 
 <p align="center">Press [3] to cast Boulder</p>
 
-## <a name="Enemy">Enemies</a>
+### <a name="Death">Death & Respawn</a>
 
-[Fire Golem](#FireGolem) | [Ice Golem](#IceGolem) | [Rock Golem](#RockGolem) | [Final Boss](#BossGolem)
+In Paladin's Path, when you die, you immediately respawn at the beginning of the level, ready to continue your journey. 
+
+<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-Death.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-Death.gif"/></div></a>
+
+## <a name="Golems">Enemy Golems</a>
+
+[Golem Types](#GolemTypes) | [Golem AI](#GolemAI) | [Golem Attacks](#GolemAttacks) | 
+
+### <a name="GolemTypes">Golems Types</a>
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-GolemCollage.png)
+
+Along Paladin's Path you'll encounter a variety of different environments where you'll meet different type of golems. Recognising each type is important, as each of your spells deal varying damage depending on the type of golem you're facing.
+
+#### Fire Golem
+
+#### Rock Golem
+
+#### Ice Golem
+
+#### Boss Golem
+
+
+### <a name="GolemAI">Golems AI</a>
+
+Golems out in the world are known to have in one of two different ways. They either move randomly within an area or move between spots on a patrol path.
+
+When a Golem sees the hero, they immediately begin chasing the hero, and when they're in range, they attack!
+
+### <a name="GolemAttacks">Golems Attacks</a>
+
 
 
 
