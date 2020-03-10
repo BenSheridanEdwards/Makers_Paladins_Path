@@ -121,14 +121,14 @@ You can move around with either A(Left),W(Up),S(Down),D(Right) or the directiona
 
 The player can also use dynamic targeting, which allows a player to lock-on to the nearest enemy using (T), and switch targets left or right using the (Q) and (E) keys respectively.
 
-![Targeting Video]()
+![Targeting Video](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-DynamicTargeting.gif)
 *Targeted enemies are shown by a glowing red ring at the targets feet*
 
 ### <a name="Heatlh">Health</a>
 
 The hero starts out with 100 health points. Golem attacks deal 10 damage, so decrease your health by 10% for every hit. As your health points decrease, the health bar next to the hero's head will both deplete and change colour from green to amber to red.
 
-![Health Bar]()
+![Health Bar](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-HealthBarGif.gif)
 
 ### <a name="PhysicalAttacks">Physical Attacks</a>
 
@@ -146,6 +146,9 @@ A single slash of your sword is an effective way to deal damage to your enemies.
 
 Sword slashes can be chained together to multiply their attack power. 3 successful sword slashes adds 40 bonus damage points to your attack.
 
+<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-SwordSlashCombo.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-SwordSlashCombo.gif"/></div></a>
+
+
 <p align="center">Quickly press [4] three times to unleash your sword slash combo attack</p>
 
 ### <a name="MagicalAttacks">Magical Attacks<a/>
@@ -156,7 +159,7 @@ As a Paladin, you can also use magic. You have three spells, a fireball spell, a
 
 Fireball is a fire-type attack that hurls a ball of fire at your target, dealing 20 damage points. Fireball is weak against earth-type enemies, dealing a reduced 15 damage points, and strong against water-type enemies, dealing a boosted 30 damage points.
 
-<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-FireballSpell.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-FireballSpell.gif"/></div></a>
+<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-FireballSpell-AgainstIceGolems.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-FireballSpell-AgainstIceGolems.gif"/></div></a>
 
 
 <p align="center">Press [1] to cast Fireball</p>
@@ -173,7 +176,7 @@ Ice Shard is a water-type attack that shoots a high speed shard of ice at your t
 
 Boulder is a earth-type attack that hurls a rock straight at your target, dealing 20 base damage. Boulder is weak against water-type enemies, dealing a reduced 15 damage points, and strong against fire-type enemies, dealing a boosted 30 damage points.
 
-<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-BoulderSpell.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-BoulderSpell.gif"/></div></a>
+<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-BoulderSpell-AgainstRockGolems.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-BoulderSpell-AgainstRockGolems.gif"/></div></a>
 
 <p align="center">Press [3] to cast Boulder</p>
 
