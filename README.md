@@ -9,9 +9,9 @@
 
 [Story](#Story) | [Level Design](#Level) | [Player Hero](#Hero) | [Enemy Golems](#Golems)
 
-### [Behind The Game (Unreal Blueprints)](#Code)
+### [Behind The Game (Unreal Blueprints)](#Blueprints)
 
-[Hero Blueprints]() | [Enemy Blueprints]()
+[Hero Blueprints](#GolemBP) | [Golem Blueprints](#GolemBP)
 
 ### [Download & Play](#Download)
 
@@ -219,7 +219,7 @@ When a Golem sees the hero, they immediately begin chasing the hero, and when th
 
 
 
-# <a name="Code">Behind The Game (Unreal Blueprints)</a>
+# <a name="Blueprints">Behind The Game (Unreal Blueprints)</a>
 
 [Hero Blueprints](#HeroBP) | [Golem Blueprints](#GolemBP)
 
