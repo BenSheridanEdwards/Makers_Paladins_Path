@@ -131,7 +131,7 @@ The player can also use dynamic targeting, which allows a player to lock-on to t
 
 The hero starts out with 100 health points. Golem attacks deal 10 damage, so decrease your health by 10% for every hit. As your health points decrease, the health bar next to the hero's head will both deplete and change colour from green to amber to red.
 
-
+<a href="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-HealthBar.gif"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/GameMechanics/PlayerMechanics-HealthBar.gif"/></div></a>
 
 ### <a name="PhysicalAttacks">Physical Attacks</a>
 
