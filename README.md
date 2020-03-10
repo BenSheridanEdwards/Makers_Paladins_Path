@@ -221,15 +221,15 @@ When a Golem sees the hero, they immediately begin chasing the hero, and when th
 
 # <a name="Code">Behind The Game (Unreal Blueprints)</a>
 
-[Game Mechanics](#GameBP) | [Hero Blueprints](#HeroBP) | [Enemy Blueprints](#EnemyBP)
+[Hero Blueprints](#HeroBP) | [Golem Blueprints](#GolemBP)
 
-## <a name="GameBP">Game Mechanics</a> 
+## <a name="HeroBP">Hero Mechanics</a> 
 
-The blueprint behind this is shown below, these come by default when creating a third person character using the Unreal Game Engine, with the exception of *Find target with Axis Input*, which we'll talk about next:
+### Player Movement
 
 ![Game Movement Blueprint](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-GameInputControlsBlueprint.png)
 
----
+### Dynamic Targeting
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-DynamicTargetingMechanic.png)
 
@@ -237,15 +237,19 @@ All credit for this targeting system goes to Grzegorz Szewczyk, whose targeting 
 
 You'll find Grzegorz's dynamic targeting system [here](https://www.unrealengine.com/marketplace/en-US/product/dynamic-targeting). 
 
-## <a name="HeroBP">Hero Mechanics</a> 
-
-Below is the blueprint for our physical attacks, showing how we save combos and calculate damage:
+### Physical Attacks
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-MeleeAttacks.png)
+
+### Magical Attacks
 
 In our blueprints, our spells are separated into their respective skills of fire, ice, and rock. Each playing an animation when cast, and then releasing the spell towards the direction the player is facing.
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-SpellAttacksBlueprint.png)
+
+## <a name="GolemBP">Golem Mechanics</a> 
+
+
 
 # <a name="Download">Download & Play</a>
 
