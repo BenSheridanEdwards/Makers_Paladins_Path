@@ -225,7 +225,7 @@ Ice Golems are found in the snowy village between the caves and castle in Paladi
 
 A Rock Golem's skin is made of dense boulders that grind against one another as it moves. The the hero's ice shard spell freezes these boulders just before the moment of impact, allowing the force of the shards impact to shatter the boulder to pieces making it a very effective spell against them. The hero's fireball spell however doesn't have anything to burn or melt on their rocky bodies, causing it to less effective. 
 
-![Image of Caves & Marked Map](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-CaveHead.png)
+![Image of Caves & Marked Map](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-Cave-Birdseye.png)
 
 Rock Golems are found in the dark caves between the fiery caverns and snowy village in Paladin's Path. 
 
