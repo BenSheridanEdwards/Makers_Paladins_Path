@@ -246,6 +246,8 @@ When a Golem sees the hero, they immediately begin chasing the hero, and when th
 
 ## <a name="HeroBP">Hero Mechanics</a> 
 
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/HeroBlueprints/Hero-Viewport.png)
+
 ### Player Movement
 
 ![Game Movement Blueprint](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-GameInputControlsBlueprint.png)
@@ -268,17 +270,53 @@ In our blueprints, our spells are separated into their respective skills of fire
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-SpellAttacksBlueprint.png)
 
-### Receiving Damage
+Launching the spell projectile
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/HeroBlueprints/HeroFunction-SkillSpawn.png)
+
+### Death Animation
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/HeroBlueprints/HeroMechanics-Death.png)
+
+### Receiving Physical Damage
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/HeroBlueprints/HeroFunction-GetMagicalDamage.png)
+
+### Receiving Magical Damage
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/HeroBlueprints/HeroFunction-GetPhysicalDamage.png)
+
+### Heatlh Bar
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/HeroBlueprints/HeroFunction-AdjustHealthBar.png)
 
 ## <a name="GolemBP">Golem Mechanics</a> 
 
-### Golem AI
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/Golem-Viewport.png)
 
-### G
+### Melee Attack
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemMechanics-MeleeAttack.png)
+
+### Receive Physical Damage
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemFunctions-GetPhysicalDamage.png)
+
+### Receive Magical Damage 
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemFunctions-GetMagicalDamage.png)
+
+### Death Animation
+
+![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemMechanics-Death.png)
+
+### Golem AI
 
 # <a name="Download">Download & Play</a>
 
 ## Coming Soon...
+
+If you know a way to host our game online for free, message me on [LinkedIn](https://www.linkedin.com/in/bensheridanedwards/)
 
 In the meantime, check out our one-minute cinematic trailer on [YouTube](https://youtu.be/R4Vh61J5KaI):
 
