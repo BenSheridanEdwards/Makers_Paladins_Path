@@ -268,9 +268,13 @@ In our blueprints, our spells are separated into their respective skills of fire
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/GameMechanics/PlayerMechanics-SpellAttacksBlueprint.png)
 
+### Receiving Damage
+
 ## <a name="GolemBP">Golem Mechanics</a> 
 
+### Golem AI
 
+### G
 
 # <a name="Download">Download & Play</a>
 
