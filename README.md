@@ -13,7 +13,7 @@
 
 [Hero Blueprints](#GolemBP) | [Golem Blueprints](#GolemBP)
 
-### [Download & Play](#Download)
+### [Cinematic Trailer](#Trailer)
 
 ---
 
@@ -312,12 +312,10 @@ Launching the spell projectile
 
 ### Golem AI
 
-# <a name="Download">Download & Play</a>
+# <a name="Trailer">Cinematic Trailer</a>
 
-## Coming Soon...
-
-If you know a way to host our game online for free, message me on [LinkedIn](https://www.linkedin.com/in/bensheridanedwards/)
-
-In the meantime, check out our one-minute cinematic trailer on [YouTube](https://youtu.be/R4Vh61J5KaI):
+Check out our one-minute cinematic trailer on [YouTube](https://youtu.be/R4Vh61J5KaI):
 
 <a href="https://youtu.be/R4Vh61J5KaI"><div align="center"><img src="https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery(Gifs)/PaladinsPath-CinematicView-1.gif"/></div></a>
+
+If you know a way to host our game online for free so everyone can play, message me on [LinkedIn](https://www.linkedin.com/in/bensheridanedwards/)
