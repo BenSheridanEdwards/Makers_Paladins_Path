@@ -205,7 +205,7 @@ Along Paladin's Path you'll encounter a variety of different environments where 
 
 A Fire Golem's skin is made of molten rock, softened from the heat emanating from their bodies. Because of this, the hero's boulder spell is very effective at disfiguring their bodies shape as well as smothering their flames. The hero's ice shard however spell melts before it can pierce it's skin, causing it to less effective. 
 
-![Image of Fiery Caverns & Marked Map]()
+![Image of Fiery Caverns & Marked Map](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-FieryCaverns-Birdseye.png)
 
 Fire Golems are found in the fiery caverns between the forest and caves of Paladin's Path. 
 
