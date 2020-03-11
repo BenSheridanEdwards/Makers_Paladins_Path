@@ -203,20 +203,23 @@ Along Paladin's Path you'll encounter a variety of different environments where 
 
 ![Image of Fire Golem](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-FireGolem-FireCave.png)
 
-Fire Golems are found in the fiery caverns between the forest and caves of Paladin's Path. 
+A Fire Golem's skin is made of molten rock, softened from the heat emanating from their bodies. Because of this, the hero's boulder spell is very effective at disfiguring their bodies shape as well as smothering their flames. The hero's ice shard however spell melts before it can pierce it's skin, causing it to less effective. 
+
+
 
 ![Image of Fiery Caverns & Marked Map]()
 
-A Fire Golem's skin is made of molten rock, softened from the heat emanating from their bodies. Because of this, the hero's boulder spell is very effective at disfiguring their bodies shape as well as smothering their flames. The hero's ice shard however spell melts before it can pierce it's skin, causing it to less effective. 
+Fire Golems are found in the fiery caverns between the forest and caves of Paladin's Path. 
 
 #### Ice Golem
 
 ![Image of Ice Golem - Tagged](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-IceGolem-IceHuts.png)
 
-
-![](Image of Snowy Village & Marked Map)(https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-IceArea-Castle.png)
-
 An Ice Golem's skin is made of thick shards of ice. Because of this, the hero's fireball spell is very effective at melting their bodies, turning them to slush. The hero's boulder spell however freezes before impact and shatters against their dense icy bodies, causing it to less effective. 
+
+![Image of Snowy Village & Marked Map](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-IceArea-Castle.png)
+
+Ice Golems are found in the snowy village between the caves and castle in Paladin's Path.
 
 #### Rock Golem
 
@@ -224,11 +227,12 @@ Rock Golems
 
 ![Image of Rock Golem - Tagged](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-RockGolem-Forest.png)
 
-Rock Golems are found in the dark caves between the fiery caverns and snowy village in Paladin's Path. 
+A Rock Golem's skin is made of dense boulders that grind against one another as it moves. The the hero's ice shard spell freezes these boulders just before the moment of impact, allowing the force of the shards impact to shatter the boulder to pieces making it a very effective spell against them. The hero's fireball spell however doesn't have anything to burn or melt on their rocky bodies, causing it to less effective. 
 
 ![Image of Caves & Marked Map](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/MVPBattle/Gallery%20(Images)/PaladinsPath-CaveHead.png)
 
-A Rock Golem's skin is made of dense boulders that grind against one another as it moves. The the hero's ice shard spell freezes these boulders just before the moment of impact, allowing the force of the shards impact to shatter the boulder to pieces making it a very effective spell against them. The hero's fireball spell however doesn't have anything to burn or melt on their rocky bodies, causing it to less effective. 
+Rock Golems are found in the dark caves between the fiery caverns and snowy village in Paladin's Path. 
+
 
 ### <a name="GolemAI">Golems AI</a>
 
