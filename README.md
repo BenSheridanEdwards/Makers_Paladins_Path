@@ -355,7 +355,7 @@ Launching the spell projectile
 
 #### Detecting if the player is in range
 
-![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-IsPlayerInRange.png
+![IsPlayerInRange](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-IsPlayerInRange.png)
 
 #### Melee Attack
 
