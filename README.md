@@ -313,7 +313,7 @@ Launching the spell projectile
 
 ### Moving around the world randomly
 
-![https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-FindRandomLocation.png]
+![FindRandomLocation](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-FindRandomLocation.png)
 
 ### Patrol Path
 
