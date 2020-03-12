@@ -11,7 +11,7 @@
 
 ### [Behind The Game (Unreal Blueprints)](#Blueprints)
 
-[Hero Blueprints](#GolemBP) | [Golem Blueprints](#GolemBP)
+[Hero Blueprints](#GolemBP) | [Golem Blueprints](#GolemBP) | [Golem AI](#GolemAIBlueprint)
 
 ### [Cinematic Trailer](#Trailer)
 
@@ -238,7 +238,7 @@ When a Golem sees the hero, they immediately begin chasing the hero, and when th
 
 # <a name="Blueprints">Behind The Game (Unreal Blueprints)</a>
 
-[Hero Blueprints](#HeroBP) | [Golem Blueprints](#GolemBP) | [Golem AI](#GolemAI)
+[Hero Blueprints](#HeroBP) | [Golem Blueprints](#GolemBP) | [Golem AI](#GolemAIBlueprint)
 
 ## <a name="HeroBP">Hero Mechanics</a> 
 
@@ -306,7 +306,7 @@ Launching the spell projectile
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemMechanics-Death.png)
 
-## <a name="GolemAI">Golem AI</a>
+## <a name="GolemAIBlueprint">Golem AI</a>
 
 ### Golem Behaviour Tree
 ![Golem AI](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-BehaviourTree.png)
