@@ -238,7 +238,7 @@ When a Golem sees the hero, they immediately begin chasing the hero, and when th
 
 # <a name="Blueprints">Behind The Game (Unreal Blueprints)</a>
 
-[Hero Blueprints](#HeroBP) | [Golem Blueprints](#GolemBP)
+[Hero Blueprints](#HeroBP) | [Golem Blueprints](#GolemBP) | [Golem AI](#GolemAI)
 
 ## <a name="HeroBP">Hero Mechanics</a> 
 
@@ -306,9 +306,60 @@ Launching the spell projectile
 
 ![](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemMechanics-Death.png)
 
-### Golem AI
+## <a name="GolemAI">Golem AI</a>
 
-![Golem AI]()
+### Golem Behaviour Tree
+![Golem AI](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-BehaviourTree.png)
+
+### Moving around the world randomly
+
+![https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-FindRandomLocation.png]
+
+### Patrol Path
+
+#### Follow patrol path
+
+![FollowPatrolPath](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-FollowPatrolPath.png)
+
+#### Find next path point
+
+![FindPathPoint](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-FindPathPoint.png)
+
+#### Incrementing to the next path point once a path point has been reached
+
+![IncrementPathIndex](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-IncrementPathIndex.png)
+
+#### Decrementing down the same patrol path backwards once the patrol path has been completed
+
+![DecrementPathIndex](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-DecrementPathIndex.png)
+
+#### Loop back to the patrol path start once completed
+
+![LoopPath](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-LoopPath.png)
+
+### Finding and chasing the player
+
+#### Detecting the player
+
+![CanSeePlayer](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-PlayerDetection.png)
+
+#### Finding their location
+
+![FindPlayerLocation](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-FindPlayerLocation.png)
+
+#### Chase the player
+
+![ChasePlayer](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-ChasePlayer.png)
+
+### Attacking the player when in range
+
+#### Detecting if the player is in range
+
+[https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-IsPlayerInRange.png]
+
+#### Melee Attack
+
+![MeleeAttack](https://github.com/BenSheridanEdwards/Makers_Paladins_Path/blob/PaladinsPath/Gallery%20(Images)/Blueprints/GolemBlueprints/GolemBlueprints-AI-MeleeAttack.png)
 
 # <a name="Trailer">Cinematic Trailer</a>
 
